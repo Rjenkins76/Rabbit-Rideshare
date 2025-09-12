@@ -127,8 +127,8 @@
     <Reference Include="IronXL, Version=2025.8.0.3, Culture=neutral, PublicKeyToken=0f5804b6690bad1e, processorArchitecture=MSIL">
       <HintPath>..\packages\IronXL.Excel.2025.8.3\lib\netstandard2.0\IronXL.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.9, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.9\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
@@ -243,6 +243,9 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.9, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.9\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
     </Reference>
@@ -300,14 +303,14 @@
     </Reference>
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceProcess" />
-    <Reference Include="System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Encoding.CodePages.5.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    <Reference Include="System.Text.Encoding.CodePages, Version=9.0.0.9, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.9.0.9\lib\net462\System.Text.Encoding.CodePages.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.9, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.9\lib\net462\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Json.8.0.0\lib\net462\System.Text.Json.dll</HintPath>
+    <Reference Include="System.Text.Json, Version=9.0.0.9, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.9\lib\net462\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
@@ -331,6 +334,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataScreens.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataScreens.Designer.cs">
+      <DependentUpon>DataScreens.cs</DependentUpon>
+    </Compile>
     <Compile Include="DOORDASH\DoorDashCollectData.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -405,11 +414,23 @@
     <Compile Include="REPORTS\MileageLogBook.Designer.cs">
       <DependentUpon>MileageLogBook.cs</DependentUpon>
     </Compile>
+    <Compile Include="REPORTS\WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="School.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="School.Designer.cs">
       <DependentUpon>School.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MONEY\TAXES\TaxForm1040.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MONEY\TAXES\TaxForm1040.Designer.cs">
+      <DependentUpon>TaxForm1040.cs</DependentUpon>
     </Compile>
     <Compile Include="UBER_RIDES\UberRidesViewDatacs.cs">
       <SubType>UserControl</SubType>
@@ -444,6 +465,9 @@
       <DependentUpon>UpdateTripMileage.cs</DependentUpon>
     </Compile>
     <Compile Include="WORKSHIFT\WorkShiftDataClass.cs" />
+    <EmbeddedResource Include="DataScreens.resx">
+      <DependentUpon>DataScreens.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DOORDASH\DoorDashCollectData.resx">
       <DependentUpon>DoorDashCollectData.cs</DependentUpon>
     </EmbeddedResource>
@@ -488,8 +512,14 @@
     <EmbeddedResource Include="REPORTS\MileageLogBook.resx">
       <DependentUpon>MileageLogBook.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="School.resx">
       <DependentUpon>School.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MONEY\TAXES\TaxForm1040.resx">
+      <DependentUpon>TaxForm1040.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UBER_RIDES\UberRidesViewDatacs.resx">
       <DependentUpon>UberRidesViewDatacs.cs</DependentUpon>

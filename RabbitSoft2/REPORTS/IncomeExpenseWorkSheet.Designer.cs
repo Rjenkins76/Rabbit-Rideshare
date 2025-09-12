@@ -29,80 +29,80 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery7 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column17 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression17 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table7 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column18 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression18 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column19 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression19 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery8 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column20 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression20 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table8 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column21 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression21 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column22 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression22 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery9 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column23 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression23 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table9 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column24 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression24 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery1 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column1 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression1 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table1 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column2 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression2 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column3 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression3 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery2 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column4 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression4 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table2 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column5 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression5 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column6 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression6 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery3 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column7 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression7 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table3 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column8 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression8 = new DevExpress.DataAccess.Sql.ColumnExpression();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IncomeExpenseWorkSheet));
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup15 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem89 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem90 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem91 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem92 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem93 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem94 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup16 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem95 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem96 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem97 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem98 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem99 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem100 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup17 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem101 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem102 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem103 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem104 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem105 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem106 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem107 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem108 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem109 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem110 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem111 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem112 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup18 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem113 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem114 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem115 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem116 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem117 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem118 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem119 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup19 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem120 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem121 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem122 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem123 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem124 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup20 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem125 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem126 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem127 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup21 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem128 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem129 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem130 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem131 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
-            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem132 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup1 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem1 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem2 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem3 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem4 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem5 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem6 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup2 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem7 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem8 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem9 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem10 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem11 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem12 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup3 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem13 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem14 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem15 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem16 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem17 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem18 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem19 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem20 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem21 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem22 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem23 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem24 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup4 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem25 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem26 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem27 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem28 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem29 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem30 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem31 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup5 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem32 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem33 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem34 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem35 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem36 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup6 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem37 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem38 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem39 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup spreadsheetCommandGalleryItemGroup7 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItemGroup();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem40 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem41 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem42 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem43 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
+            DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem spreadsheetCommandGalleryItem44 = new DevExpress.XtraSpreadsheet.UI.SpreadsheetCommandGalleryItem();
             this.labelControl31 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.spinEdit5 = new DevExpress.XtraEditors.SpinEdit();
@@ -670,54 +670,54 @@
             // 
             this.sqlDataSource1.ConnectionName = "RABBIT_RIDESHAREConnectionString";
             this.sqlDataSource1.Name = "sqlDataSource1";
-            columnExpression17.ColumnName = "ITEM_NAME";
-            table7.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"145\" />";
-            table7.Name = "base_expenses";
-            columnExpression17.Table = table7;
-            column17.Expression = columnExpression17;
-            columnExpression18.ColumnName = "BI_WEEK";
-            columnExpression18.Table = table7;
-            column18.Expression = columnExpression18;
-            columnExpression19.ColumnName = "MONTH";
-            columnExpression19.Table = table7;
-            column19.Expression = columnExpression19;
-            selectQuery7.Columns.Add(column17);
-            selectQuery7.Columns.Add(column18);
-            selectQuery7.Columns.Add(column19);
-            selectQuery7.Name = "base_expenses";
-            selectQuery7.Tables.Add(table7);
-            columnExpression20.ColumnName = "DATE";
-            table8.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"225\" />";
-            table8.Name = "Trip_Activity";
-            columnExpression20.Table = table8;
-            column20.Expression = columnExpression20;
-            columnExpression21.ColumnName = "TOTAL_COLLECTED";
-            columnExpression21.Table = table8;
-            column21.Expression = columnExpression21;
-            columnExpression22.ColumnName = "PROVIDER";
-            columnExpression22.Table = table8;
-            column22.Expression = columnExpression22;
-            selectQuery8.Columns.Add(column20);
-            selectQuery8.Columns.Add(column21);
-            selectQuery8.Columns.Add(column22);
-            selectQuery8.Name = "Trip_Activity";
-            selectQuery8.Tables.Add(table8);
-            columnExpression23.ColumnName = "DATE";
-            table9.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"225\" />";
-            table9.Name = "Doordash_Trip_Activity";
-            columnExpression23.Table = table9;
-            column23.Expression = columnExpression23;
-            columnExpression24.ColumnName = "TOTALPAY";
-            columnExpression24.Table = table9;
-            column24.Expression = columnExpression24;
-            selectQuery9.Columns.Add(column23);
-            selectQuery9.Columns.Add(column24);
-            selectQuery9.Name = "Doordash_Trip_Activity";
-            selectQuery9.Tables.Add(table9);
+            columnExpression1.ColumnName = "ITEM_NAME";
+            table1.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"145\" />";
+            table1.Name = "base_expenses";
+            columnExpression1.Table = table1;
+            column1.Expression = columnExpression1;
+            columnExpression2.ColumnName = "BI_WEEK";
+            columnExpression2.Table = table1;
+            column2.Expression = columnExpression2;
+            columnExpression3.ColumnName = "MONTH";
+            columnExpression3.Table = table1;
+            column3.Expression = columnExpression3;
+            selectQuery1.Columns.Add(column1);
+            selectQuery1.Columns.Add(column2);
+            selectQuery1.Columns.Add(column3);
+            selectQuery1.Name = "base_expenses";
+            selectQuery1.Tables.Add(table1);
+            columnExpression4.ColumnName = "DATE";
+            table2.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"225\" />";
+            table2.Name = "Trip_Activity";
+            columnExpression4.Table = table2;
+            column4.Expression = columnExpression4;
+            columnExpression5.ColumnName = "TOTAL_COLLECTED";
+            columnExpression5.Table = table2;
+            column5.Expression = columnExpression5;
+            columnExpression6.ColumnName = "PROVIDER";
+            columnExpression6.Table = table2;
+            column6.Expression = columnExpression6;
+            selectQuery2.Columns.Add(column4);
+            selectQuery2.Columns.Add(column5);
+            selectQuery2.Columns.Add(column6);
+            selectQuery2.Name = "Trip_Activity";
+            selectQuery2.Tables.Add(table2);
+            columnExpression7.ColumnName = "DATE";
+            table3.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"225\" />";
+            table3.Name = "Doordash_Trip_Activity";
+            columnExpression7.Table = table3;
+            column7.Expression = columnExpression7;
+            columnExpression8.ColumnName = "TOTALPAY";
+            columnExpression8.Table = table3;
+            column8.Expression = columnExpression8;
+            selectQuery3.Columns.Add(column7);
+            selectQuery3.Columns.Add(column8);
+            selectQuery3.Name = "Doordash_Trip_Activity";
+            selectQuery3.Tables.Add(table3);
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            selectQuery7,
-            selectQuery8,
-            selectQuery9});
+            selectQuery1,
+            selectQuery2,
+            selectQuery3});
             this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
             // 
             // groupControl2
@@ -1351,97 +1351,97 @@
             // 
             // 
             this.commandBarGalleryDropDown2.Gallery.ColumnCount = 3;
-            spreadsheetCommandGalleryItemGroup15.CommandName = "ConditionalFormattingDataBarsGradientFillCommandGroup";
-            spreadsheetCommandGalleryItem89.Caption = "Blue Data Bar (Gradient)";
-            spreadsheetCommandGalleryItem89.CommandName = "ConditionalFormattingDataBarGradientBlue";
-            spreadsheetCommandGalleryItem89.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItemGroup1.CommandName = "ConditionalFormattingDataBarsGradientFillCommandGroup";
+            spreadsheetCommandGalleryItem1.Caption = "Blue Data Bar (Gradient)";
+            spreadsheetCommandGalleryItem1.CommandName = "ConditionalFormattingDataBarGradientBlue";
+            spreadsheetCommandGalleryItem1.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem89.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem1.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem90.Caption = "Green Data Bar (Gradient)";
-            spreadsheetCommandGalleryItem90.CommandName = "ConditionalFormattingDataBarGradientGreen";
-            spreadsheetCommandGalleryItem90.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem2.Caption = "Green Data Bar (Gradient)";
+            spreadsheetCommandGalleryItem2.CommandName = "ConditionalFormattingDataBarGradientGreen";
+            spreadsheetCommandGalleryItem2.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem90.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem2.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem91.Caption = "Red Data Bar (Gradient)";
-            spreadsheetCommandGalleryItem91.CommandName = "ConditionalFormattingDataBarGradientRed";
-            spreadsheetCommandGalleryItem91.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem3.Caption = "Red Data Bar (Gradient)";
+            spreadsheetCommandGalleryItem3.CommandName = "ConditionalFormattingDataBarGradientRed";
+            spreadsheetCommandGalleryItem3.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem91.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem3.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem92.Caption = "Orange Data Bar (Gradient)";
-            spreadsheetCommandGalleryItem92.CommandName = "ConditionalFormattingDataBarGradientOrange";
-            spreadsheetCommandGalleryItem92.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem4.Caption = "Orange Data Bar (Gradient)";
+            spreadsheetCommandGalleryItem4.CommandName = "ConditionalFormattingDataBarGradientOrange";
+            spreadsheetCommandGalleryItem4.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem92.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem4.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem93.Caption = "Light Blue Data Bar (Gradient)";
-            spreadsheetCommandGalleryItem93.CommandName = "ConditionalFormattingDataBarGradientLightBlue";
-            spreadsheetCommandGalleryItem93.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem5.Caption = "Light Blue Data Bar (Gradient)";
+            spreadsheetCommandGalleryItem5.CommandName = "ConditionalFormattingDataBarGradientLightBlue";
+            spreadsheetCommandGalleryItem5.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem93.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem5.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem94.Caption = "Purple Data Bar (Gradient)";
-            spreadsheetCommandGalleryItem94.CommandName = "ConditionalFormattingDataBarGradientPurple";
-            spreadsheetCommandGalleryItem94.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem6.Caption = "Purple Data Bar (Gradient)";
+            spreadsheetCommandGalleryItem6.CommandName = "ConditionalFormattingDataBarGradientPurple";
+            spreadsheetCommandGalleryItem6.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem94.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem6.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItemGroup15.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem89,
-            spreadsheetCommandGalleryItem90,
-            spreadsheetCommandGalleryItem91,
-            spreadsheetCommandGalleryItem92,
-            spreadsheetCommandGalleryItem93,
-            spreadsheetCommandGalleryItem94});
-            spreadsheetCommandGalleryItemGroup16.CommandName = "ConditionalFormattingDataBarsSolidFillCommandGroup";
-            spreadsheetCommandGalleryItem95.Caption = "Blue Data Bar (Solid)";
-            spreadsheetCommandGalleryItem95.CommandName = "ConditionalFormattingDataBarSolidBlue";
-            spreadsheetCommandGalleryItem95.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItemGroup1.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem1,
+            spreadsheetCommandGalleryItem2,
+            spreadsheetCommandGalleryItem3,
+            spreadsheetCommandGalleryItem4,
+            spreadsheetCommandGalleryItem5,
+            spreadsheetCommandGalleryItem6});
+            spreadsheetCommandGalleryItemGroup2.CommandName = "ConditionalFormattingDataBarsSolidFillCommandGroup";
+            spreadsheetCommandGalleryItem7.Caption = "Blue Data Bar (Solid)";
+            spreadsheetCommandGalleryItem7.CommandName = "ConditionalFormattingDataBarSolidBlue";
+            spreadsheetCommandGalleryItem7.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem95.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem7.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem96.Caption = "Green Data Bar (Solid)";
-            spreadsheetCommandGalleryItem96.CommandName = "ConditionalFormattingDataBarSolidGreen";
-            spreadsheetCommandGalleryItem96.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem8.Caption = "Green Data Bar (Solid)";
+            spreadsheetCommandGalleryItem8.CommandName = "ConditionalFormattingDataBarSolidGreen";
+            spreadsheetCommandGalleryItem8.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem96.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem8.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem97.Caption = "Red Data Bar (Solid)";
-            spreadsheetCommandGalleryItem97.CommandName = "ConditionalFormattingDataBarSolidRed";
-            spreadsheetCommandGalleryItem97.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem9.Caption = "Red Data Bar (Solid)";
+            spreadsheetCommandGalleryItem9.CommandName = "ConditionalFormattingDataBarSolidRed";
+            spreadsheetCommandGalleryItem9.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem97.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem9.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem98.Caption = "Orange Data Bar (Solid)";
-            spreadsheetCommandGalleryItem98.CommandName = "ConditionalFormattingDataBarSolidOrange";
-            spreadsheetCommandGalleryItem98.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem10.Caption = "Orange Data Bar (Solid)";
+            spreadsheetCommandGalleryItem10.CommandName = "ConditionalFormattingDataBarSolidOrange";
+            spreadsheetCommandGalleryItem10.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem98.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem10.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem99.Caption = "Light Blue Data Bar (Solid)";
-            spreadsheetCommandGalleryItem99.CommandName = "ConditionalFormattingDataBarSolidLightBlue";
-            spreadsheetCommandGalleryItem99.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem11.Caption = "Light Blue Data Bar (Solid)";
+            spreadsheetCommandGalleryItem11.CommandName = "ConditionalFormattingDataBarSolidLightBlue";
+            spreadsheetCommandGalleryItem11.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem99.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem11.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem100.Caption = "Purple Data Bar (Solid)";
-            spreadsheetCommandGalleryItem100.CommandName = "ConditionalFormattingDataBarSolidPurple";
-            spreadsheetCommandGalleryItem100.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem12.Caption = "Purple Data Bar (Solid)";
+            spreadsheetCommandGalleryItem12.CommandName = "ConditionalFormattingDataBarSolidPurple";
+            spreadsheetCommandGalleryItem12.Description = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItem100.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
+            spreadsheetCommandGalleryItem12.Hint = "View a colored data bar in the cell. The length of the data bar represents the va" +
     "lue in the cell. A longer bar represents a higher value.";
-            spreadsheetCommandGalleryItemGroup16.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem95,
-            spreadsheetCommandGalleryItem96,
-            spreadsheetCommandGalleryItem97,
-            spreadsheetCommandGalleryItem98,
-            spreadsheetCommandGalleryItem99,
-            spreadsheetCommandGalleryItem100});
+            spreadsheetCommandGalleryItemGroup2.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem7,
+            spreadsheetCommandGalleryItem8,
+            spreadsheetCommandGalleryItem9,
+            spreadsheetCommandGalleryItem10,
+            spreadsheetCommandGalleryItem11,
+            spreadsheetCommandGalleryItem12});
             this.commandBarGalleryDropDown2.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            spreadsheetCommandGalleryItemGroup15,
-            spreadsheetCommandGalleryItemGroup16});
+            spreadsheetCommandGalleryItemGroup1,
+            spreadsheetCommandGalleryItemGroup2});
             this.commandBarGalleryDropDown2.Gallery.RowCount = 4;
             this.commandBarGalleryDropDown2.Manager = null;
             this.commandBarGalleryDropDown2.Name = "commandBarGalleryDropDown2";
@@ -1452,94 +1452,94 @@
             // 
             // 
             this.commandBarGalleryDropDown3.Gallery.ColumnCount = 4;
-            spreadsheetCommandGalleryItemGroup17.CommandName = "ConditionalFormattingColorScalesCommandGroup";
-            spreadsheetCommandGalleryItem101.Caption = "Green - Yellow - Red Color Scale";
-            spreadsheetCommandGalleryItem101.CommandName = "ConditionalFormattingColorScaleGreenYellowRed";
-            spreadsheetCommandGalleryItem101.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItemGroup3.CommandName = "ConditionalFormattingColorScalesCommandGroup";
+            spreadsheetCommandGalleryItem13.Caption = "Green - Yellow - Red Color Scale";
+            spreadsheetCommandGalleryItem13.CommandName = "ConditionalFormattingColorScaleGreenYellowRed";
+            spreadsheetCommandGalleryItem13.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem101.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem13.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem102.Caption = "Red - Yellow - Green Color Scale";
-            spreadsheetCommandGalleryItem102.CommandName = "ConditionalFormattingColorScaleRedYellowGreen";
-            spreadsheetCommandGalleryItem102.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem14.Caption = "Red - Yellow - Green Color Scale";
+            spreadsheetCommandGalleryItem14.CommandName = "ConditionalFormattingColorScaleRedYellowGreen";
+            spreadsheetCommandGalleryItem14.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem102.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem14.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem103.Caption = "Green - White - Red Color Scale";
-            spreadsheetCommandGalleryItem103.CommandName = "ConditionalFormattingColorScaleGreenWhiteRed";
-            spreadsheetCommandGalleryItem103.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem15.Caption = "Green - White - Red Color Scale";
+            spreadsheetCommandGalleryItem15.CommandName = "ConditionalFormattingColorScaleGreenWhiteRed";
+            spreadsheetCommandGalleryItem15.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem103.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem15.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem104.Caption = "Red - White - Green Color Scale";
-            spreadsheetCommandGalleryItem104.CommandName = "ConditionalFormattingColorScaleRedWhiteGreen";
-            spreadsheetCommandGalleryItem104.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem16.Caption = "Red - White - Green Color Scale";
+            spreadsheetCommandGalleryItem16.CommandName = "ConditionalFormattingColorScaleRedWhiteGreen";
+            spreadsheetCommandGalleryItem16.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem104.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem16.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem105.Caption = "Blue - White - Red Color Scale";
-            spreadsheetCommandGalleryItem105.CommandName = "ConditionalFormattingColorScaleBlueWhiteRed";
-            spreadsheetCommandGalleryItem105.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem17.Caption = "Blue - White - Red Color Scale";
+            spreadsheetCommandGalleryItem17.CommandName = "ConditionalFormattingColorScaleBlueWhiteRed";
+            spreadsheetCommandGalleryItem17.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem105.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem17.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem106.Caption = "Red - White - Blue Color Scale";
-            spreadsheetCommandGalleryItem106.CommandName = "ConditionalFormattingColorScaleRedWhiteBlue";
-            spreadsheetCommandGalleryItem106.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem18.Caption = "Red - White - Blue Color Scale";
+            spreadsheetCommandGalleryItem18.CommandName = "ConditionalFormattingColorScaleRedWhiteBlue";
+            spreadsheetCommandGalleryItem18.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem106.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem18.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem107.Caption = "White - Red Color Scale";
-            spreadsheetCommandGalleryItem107.CommandName = "ConditionalFormattingColorScaleWhiteRed";
-            spreadsheetCommandGalleryItem107.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem19.Caption = "White - Red Color Scale";
+            spreadsheetCommandGalleryItem19.CommandName = "ConditionalFormattingColorScaleWhiteRed";
+            spreadsheetCommandGalleryItem19.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem107.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem19.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem108.Caption = "Red - White Color Scale";
-            spreadsheetCommandGalleryItem108.CommandName = "ConditionalFormattingColorScaleRedWhite";
-            spreadsheetCommandGalleryItem108.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem20.Caption = "Red - White Color Scale";
+            spreadsheetCommandGalleryItem20.CommandName = "ConditionalFormattingColorScaleRedWhite";
+            spreadsheetCommandGalleryItem20.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem108.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem20.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem109.Caption = "Green - White Color Scale";
-            spreadsheetCommandGalleryItem109.CommandName = "ConditionalFormattingColorScaleGreenWhite";
-            spreadsheetCommandGalleryItem109.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem21.Caption = "Green - White Color Scale";
+            spreadsheetCommandGalleryItem21.CommandName = "ConditionalFormattingColorScaleGreenWhite";
+            spreadsheetCommandGalleryItem21.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem109.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem21.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem110.Caption = "White - Green Color Scale";
-            spreadsheetCommandGalleryItem110.CommandName = "ConditionalFormattingColorScaleWhiteGreen";
-            spreadsheetCommandGalleryItem110.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem22.Caption = "White - Green Color Scale";
+            spreadsheetCommandGalleryItem22.CommandName = "ConditionalFormattingColorScaleWhiteGreen";
+            spreadsheetCommandGalleryItem22.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem110.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem22.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem111.Caption = "Green - Yellow Color Scale";
-            spreadsheetCommandGalleryItem111.CommandName = "ConditionalFormattingColorScaleGreenYellow";
-            spreadsheetCommandGalleryItem111.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem23.Caption = "Green - Yellow Color Scale";
+            spreadsheetCommandGalleryItem23.CommandName = "ConditionalFormattingColorScaleGreenYellow";
+            spreadsheetCommandGalleryItem23.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem111.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem23.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem112.Caption = "Yellow - Green Color Scale";
-            spreadsheetCommandGalleryItem112.CommandName = "ConditionalFormattingColorScaleYellowGreen";
-            spreadsheetCommandGalleryItem112.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem24.Caption = "Yellow - Green Color Scale";
+            spreadsheetCommandGalleryItem24.CommandName = "ConditionalFormattingColorScaleYellowGreen";
+            spreadsheetCommandGalleryItem24.Description = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItem112.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
+            spreadsheetCommandGalleryItem24.Hint = "Displays a two or three color gradient in a range of cells. The shade of the colo" +
     "r represents the value in the cell.";
-            spreadsheetCommandGalleryItemGroup17.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem101,
-            spreadsheetCommandGalleryItem102,
-            spreadsheetCommandGalleryItem103,
-            spreadsheetCommandGalleryItem104,
-            spreadsheetCommandGalleryItem105,
-            spreadsheetCommandGalleryItem106,
-            spreadsheetCommandGalleryItem107,
-            spreadsheetCommandGalleryItem108,
-            spreadsheetCommandGalleryItem109,
-            spreadsheetCommandGalleryItem110,
-            spreadsheetCommandGalleryItem111,
-            spreadsheetCommandGalleryItem112});
+            spreadsheetCommandGalleryItemGroup3.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem13,
+            spreadsheetCommandGalleryItem14,
+            spreadsheetCommandGalleryItem15,
+            spreadsheetCommandGalleryItem16,
+            spreadsheetCommandGalleryItem17,
+            spreadsheetCommandGalleryItem18,
+            spreadsheetCommandGalleryItem19,
+            spreadsheetCommandGalleryItem20,
+            spreadsheetCommandGalleryItem21,
+            spreadsheetCommandGalleryItem22,
+            spreadsheetCommandGalleryItem23,
+            spreadsheetCommandGalleryItem24});
             this.commandBarGalleryDropDown3.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            spreadsheetCommandGalleryItemGroup17});
+            spreadsheetCommandGalleryItemGroup3});
             this.commandBarGalleryDropDown3.Gallery.ShowGroupCaption = false;
             this.commandBarGalleryDropDown3.Manager = null;
             this.commandBarGalleryDropDown3.Name = "commandBarGalleryDropDown3";
@@ -1550,159 +1550,159 @@
             // 
             // 
             this.commandBarGalleryDropDown4.Gallery.ColumnCount = 4;
-            spreadsheetCommandGalleryItemGroup18.CommandName = "ConditionalFormattingIconSetsDirectionalCommandGroup";
-            spreadsheetCommandGalleryItem113.Caption = "3 Arrows (Colored)";
-            spreadsheetCommandGalleryItem113.CommandName = "ConditionalFormattingIconSetArrows3Colored";
-            spreadsheetCommandGalleryItem113.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItemGroup4.CommandName = "ConditionalFormattingIconSetsDirectionalCommandGroup";
+            spreadsheetCommandGalleryItem25.Caption = "3 Arrows (Colored)";
+            spreadsheetCommandGalleryItem25.CommandName = "ConditionalFormattingIconSetArrows3Colored";
+            spreadsheetCommandGalleryItem25.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem113.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem25.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem114.Caption = "3 Arrows (Gray)";
-            spreadsheetCommandGalleryItem114.CommandName = "ConditionalFormattingIconSetArrows3Grayed";
-            spreadsheetCommandGalleryItem114.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem26.Caption = "3 Arrows (Gray)";
+            spreadsheetCommandGalleryItem26.CommandName = "ConditionalFormattingIconSetArrows3Grayed";
+            spreadsheetCommandGalleryItem26.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem114.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem26.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem115.Caption = "4 Arrows (Colored)";
-            spreadsheetCommandGalleryItem115.CommandName = "ConditionalFormattingIconSetArrows4Colored";
-            spreadsheetCommandGalleryItem115.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem27.Caption = "4 Arrows (Colored)";
+            spreadsheetCommandGalleryItem27.CommandName = "ConditionalFormattingIconSetArrows4Colored";
+            spreadsheetCommandGalleryItem27.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem115.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem27.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem116.Caption = "4 Arrows (Gray)";
-            spreadsheetCommandGalleryItem116.CommandName = "ConditionalFormattingIconSetArrows4Grayed";
-            spreadsheetCommandGalleryItem116.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem28.Caption = "4 Arrows (Gray)";
+            spreadsheetCommandGalleryItem28.CommandName = "ConditionalFormattingIconSetArrows4Grayed";
+            spreadsheetCommandGalleryItem28.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem116.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem28.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem117.Caption = "5 Arrows (Colored)";
-            spreadsheetCommandGalleryItem117.CommandName = "ConditionalFormattingIconSetArrows5Colored";
-            spreadsheetCommandGalleryItem117.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem29.Caption = "5 Arrows (Colored)";
+            spreadsheetCommandGalleryItem29.CommandName = "ConditionalFormattingIconSetArrows5Colored";
+            spreadsheetCommandGalleryItem29.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem117.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem29.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem118.Caption = "5 Arrows (Gray)";
-            spreadsheetCommandGalleryItem118.CommandName = "ConditionalFormattingIconSetArrows5Grayed";
-            spreadsheetCommandGalleryItem118.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem30.Caption = "5 Arrows (Gray)";
+            spreadsheetCommandGalleryItem30.CommandName = "ConditionalFormattingIconSetArrows5Grayed";
+            spreadsheetCommandGalleryItem30.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem118.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem30.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem119.Caption = "3 Triangles";
-            spreadsheetCommandGalleryItem119.CommandName = "ConditionalFormattingIconSetTriangles3";
-            spreadsheetCommandGalleryItem119.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem31.Caption = "3 Triangles";
+            spreadsheetCommandGalleryItem31.CommandName = "ConditionalFormattingIconSetTriangles3";
+            spreadsheetCommandGalleryItem31.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem119.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem31.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItemGroup18.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem113,
-            spreadsheetCommandGalleryItem114,
-            spreadsheetCommandGalleryItem115,
-            spreadsheetCommandGalleryItem116,
-            spreadsheetCommandGalleryItem117,
-            spreadsheetCommandGalleryItem118,
-            spreadsheetCommandGalleryItem119});
-            spreadsheetCommandGalleryItemGroup19.CommandName = "ConditionalFormattingIconSetsShapesCommandGroup";
-            spreadsheetCommandGalleryItem120.Caption = "3 Traffic Lights (Unrimmed)";
-            spreadsheetCommandGalleryItem120.CommandName = "ConditionalFormattingIconSetTrafficLights3";
-            spreadsheetCommandGalleryItem120.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItemGroup4.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem25,
+            spreadsheetCommandGalleryItem26,
+            spreadsheetCommandGalleryItem27,
+            spreadsheetCommandGalleryItem28,
+            spreadsheetCommandGalleryItem29,
+            spreadsheetCommandGalleryItem30,
+            spreadsheetCommandGalleryItem31});
+            spreadsheetCommandGalleryItemGroup5.CommandName = "ConditionalFormattingIconSetsShapesCommandGroup";
+            spreadsheetCommandGalleryItem32.Caption = "3 Traffic Lights (Unrimmed)";
+            spreadsheetCommandGalleryItem32.CommandName = "ConditionalFormattingIconSetTrafficLights3";
+            spreadsheetCommandGalleryItem32.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem120.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem32.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem121.Caption = "3 Traffic Lights (Rimmed)";
-            spreadsheetCommandGalleryItem121.CommandName = "ConditionalFormattingIconSetTrafficLights3Rimmed";
-            spreadsheetCommandGalleryItem121.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem33.Caption = "3 Traffic Lights (Rimmed)";
+            spreadsheetCommandGalleryItem33.CommandName = "ConditionalFormattingIconSetTrafficLights3Rimmed";
+            spreadsheetCommandGalleryItem33.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem121.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem33.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem122.Caption = "4 Traffic Lights";
-            spreadsheetCommandGalleryItem122.CommandName = "ConditionalFormattingIconSetTrafficLights4";
-            spreadsheetCommandGalleryItem122.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem34.Caption = "4 Traffic Lights";
+            spreadsheetCommandGalleryItem34.CommandName = "ConditionalFormattingIconSetTrafficLights4";
+            spreadsheetCommandGalleryItem34.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem122.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem34.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem123.Caption = "3 Signs";
-            spreadsheetCommandGalleryItem123.CommandName = "ConditionalFormattingIconSetSigns3";
-            spreadsheetCommandGalleryItem123.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem35.Caption = "3 Signs";
+            spreadsheetCommandGalleryItem35.CommandName = "ConditionalFormattingIconSetSigns3";
+            spreadsheetCommandGalleryItem35.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem123.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem35.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem124.Caption = "Red To Black";
-            spreadsheetCommandGalleryItem124.CommandName = "ConditionalFormattingIconSetRedToBlack";
-            spreadsheetCommandGalleryItem124.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem36.Caption = "Red To Black";
+            spreadsheetCommandGalleryItem36.CommandName = "ConditionalFormattingIconSetRedToBlack";
+            spreadsheetCommandGalleryItem36.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem124.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem36.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItemGroup19.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem120,
-            spreadsheetCommandGalleryItem121,
-            spreadsheetCommandGalleryItem122,
-            spreadsheetCommandGalleryItem123,
-            spreadsheetCommandGalleryItem124});
-            spreadsheetCommandGalleryItemGroup20.CommandName = "ConditionalFormattingIconSetsIndicatorsCommandGroup";
-            spreadsheetCommandGalleryItem125.Caption = "3 Symbols (Circled)";
-            spreadsheetCommandGalleryItem125.CommandName = "ConditionalFormattingIconSetSymbols3Circled";
-            spreadsheetCommandGalleryItem125.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItemGroup5.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem32,
+            spreadsheetCommandGalleryItem33,
+            spreadsheetCommandGalleryItem34,
+            spreadsheetCommandGalleryItem35,
+            spreadsheetCommandGalleryItem36});
+            spreadsheetCommandGalleryItemGroup6.CommandName = "ConditionalFormattingIconSetsIndicatorsCommandGroup";
+            spreadsheetCommandGalleryItem37.Caption = "3 Symbols (Circled)";
+            spreadsheetCommandGalleryItem37.CommandName = "ConditionalFormattingIconSetSymbols3Circled";
+            spreadsheetCommandGalleryItem37.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem125.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem37.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem126.Caption = "3 Symbols (Uncircled)";
-            spreadsheetCommandGalleryItem126.CommandName = "ConditionalFormattingIconSetSymbols3";
-            spreadsheetCommandGalleryItem126.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem38.Caption = "3 Symbols (Uncircled)";
+            spreadsheetCommandGalleryItem38.CommandName = "ConditionalFormattingIconSetSymbols3";
+            spreadsheetCommandGalleryItem38.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem126.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem38.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem127.Caption = "3 Flags";
-            spreadsheetCommandGalleryItem127.CommandName = "ConditionalFormattingIconSetFlags3";
-            spreadsheetCommandGalleryItem127.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem39.Caption = "3 Flags";
+            spreadsheetCommandGalleryItem39.CommandName = "ConditionalFormattingIconSetFlags3";
+            spreadsheetCommandGalleryItem39.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem127.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem39.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItemGroup20.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem125,
-            spreadsheetCommandGalleryItem126,
-            spreadsheetCommandGalleryItem127});
-            spreadsheetCommandGalleryItemGroup21.CommandName = "ConditionalFormattingIconSetsRatingsCommandGroup";
-            spreadsheetCommandGalleryItem128.Caption = "3 Stars";
-            spreadsheetCommandGalleryItem128.CommandName = "ConditionalFormattingIconSetStars3";
-            spreadsheetCommandGalleryItem128.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItemGroup6.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem37,
+            spreadsheetCommandGalleryItem38,
+            spreadsheetCommandGalleryItem39});
+            spreadsheetCommandGalleryItemGroup7.CommandName = "ConditionalFormattingIconSetsRatingsCommandGroup";
+            spreadsheetCommandGalleryItem40.Caption = "3 Stars";
+            spreadsheetCommandGalleryItem40.CommandName = "ConditionalFormattingIconSetStars3";
+            spreadsheetCommandGalleryItem40.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem128.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem40.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem129.Caption = "4 Ratings";
-            spreadsheetCommandGalleryItem129.CommandName = "ConditionalFormattingIconSetRatings4";
-            spreadsheetCommandGalleryItem129.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem41.Caption = "4 Ratings";
+            spreadsheetCommandGalleryItem41.CommandName = "ConditionalFormattingIconSetRatings4";
+            spreadsheetCommandGalleryItem41.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem129.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem41.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem130.Caption = "5 Ratings";
-            spreadsheetCommandGalleryItem130.CommandName = "ConditionalFormattingIconSetRatings5";
-            spreadsheetCommandGalleryItem130.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem42.Caption = "5 Ratings";
+            spreadsheetCommandGalleryItem42.CommandName = "ConditionalFormattingIconSetRatings5";
+            spreadsheetCommandGalleryItem42.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem130.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem42.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem131.Caption = "5 Quarters";
-            spreadsheetCommandGalleryItem131.CommandName = "ConditionalFormattingIconSetQuarters5";
-            spreadsheetCommandGalleryItem131.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem43.Caption = "5 Quarters";
+            spreadsheetCommandGalleryItem43.CommandName = "ConditionalFormattingIconSetQuarters5";
+            spreadsheetCommandGalleryItem43.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem131.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem43.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem132.Caption = "5 Boxes";
-            spreadsheetCommandGalleryItem132.CommandName = "ConditionalFormattingIconSetBoxes5";
-            spreadsheetCommandGalleryItem132.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem44.Caption = "5 Boxes";
+            spreadsheetCommandGalleryItem44.CommandName = "ConditionalFormattingIconSetBoxes5";
+            spreadsheetCommandGalleryItem44.Description = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItem132.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
+            spreadsheetCommandGalleryItem44.Hint = "Display an icon from the above icon set in each cell. Each icon represents a valu" +
     "e in the cell.";
-            spreadsheetCommandGalleryItemGroup21.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            spreadsheetCommandGalleryItem128,
-            spreadsheetCommandGalleryItem129,
-            spreadsheetCommandGalleryItem130,
-            spreadsheetCommandGalleryItem131,
-            spreadsheetCommandGalleryItem132});
+            spreadsheetCommandGalleryItemGroup7.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            spreadsheetCommandGalleryItem40,
+            spreadsheetCommandGalleryItem41,
+            spreadsheetCommandGalleryItem42,
+            spreadsheetCommandGalleryItem43,
+            spreadsheetCommandGalleryItem44});
             this.commandBarGalleryDropDown4.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            spreadsheetCommandGalleryItemGroup18,
-            spreadsheetCommandGalleryItemGroup19,
-            spreadsheetCommandGalleryItemGroup20,
-            spreadsheetCommandGalleryItemGroup21});
+            spreadsheetCommandGalleryItemGroup4,
+            spreadsheetCommandGalleryItemGroup5,
+            spreadsheetCommandGalleryItemGroup6,
+            spreadsheetCommandGalleryItemGroup7});
             this.commandBarGalleryDropDown4.Gallery.RowCount = 7;
             this.commandBarGalleryDropDown4.Manager = null;
             this.commandBarGalleryDropDown4.Name = "commandBarGalleryDropDown4";

@@ -338,31 +338,36 @@ namespace RabbitSoft2
                         {
                             while (reader.Read())
                             {
-                                TimeOnly LineItemTime = TimeOnly.FromDateTime(Convert.ToDateTime(reader[2].ToString()));
-                                if (Convert.ToDateTime(reader[2].ToString()).ToShortDateString() == processdate.ToShortDateString())
+                                try
                                 {
-                                    if (LineItemTime.IsBetween(starttime, endtime))
+                                    TimeOnly LineItemTime = TimeOnly.FromDateTime(Convert.ToDateTime(reader[2].ToString()));
+                                    if (Convert.ToDateTime(reader[2].ToString()).ToShortDateString() == processdate.ToShortDateString())
                                     {
-                                        BasePay += Convert.ToDouble(reader[4].ToString());
-                                        Tip_OtherPay += Convert.ToDouble(reader[5].ToString());
-                                        TotalPay += Convert.ToDouble(reader[6].ToString());
-                                        totalTrips++;
+                                        if (LineItemTime.IsBetween(starttime, endtime))
+                                        {
+                                            BasePay += Convert.ToDouble(reader[4].ToString());
+                                            Tip_OtherPay += Convert.ToDouble(reader[5].ToString());
+                                            TotalPay += Convert.ToDouble(reader[6].ToString());
+                                            totalTrips++;
+                                        }
                                     }
-                                }
-                                else if (Convert.ToDateTime(reader[2].ToString()).ToShortDateString() == processdate.AddDays(1).ToShortDateString())
-                                {
-                                    if (LineItemTime.IsBetween(starttime, endtime))
+                                    else if (Convert.ToDateTime(reader[2].ToString()).ToShortDateString() == processdate.AddDays(1).ToShortDateString())
                                     {
-                                        BasePay += Convert.ToDouble(reader[4].ToString());
-                                        Tip_OtherPay += Convert.ToDouble(reader[5].ToString());
-                                        TotalPay += Convert.ToDouble(reader[6].ToString());
-                                        totalTrips++;
+                                        if (LineItemTime.IsBetween(starttime, endtime))
+                                        {
+                                            BasePay += Convert.ToDouble(reader[4].ToString());
+                                            Tip_OtherPay += Convert.ToDouble(reader[5].ToString());
+                                            TotalPay += Convert.ToDouble(reader[6].ToString());
+                                            totalTrips++;
+                                        }
                                     }
-                                }
 
-                                totaltotal += TotalPay;
-                                hourlyPay = TotalPay / duration.TotalHours;
-                                avgtripamount = TotalPay / totalTrips;
+                                    totaltotal += TotalPay;
+                                    hourlyPay = TotalPay / duration.TotalHours;
+                                    avgtripamount = TotalPay / totalTrips;
+                                }
+                                catch { continue; }
+                                
 
                             }
 

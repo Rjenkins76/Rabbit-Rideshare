@@ -167,5 +167,23 @@ namespace RabbitSoft2
             panelControl1.Controls.Clear();
             panelControl1.Controls.Add(school);
         }
+
+        private void barButtonItem19_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            TaxForm1040 tf1040 = new TaxForm1040();
+            tf1040.Dock = DockStyle.Fill;
+
+            panelControl1.Controls.Clear();
+            panelControl1.Controls.Add(tf1040);
+        }
+
+        private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DataScreens screens = new DataScreens();
+            screens.Dock = DockStyle.Fill;
+
+            panelControl1.Controls.Clear();
+            panelControl1.Controls.Add(screens);
+        }
     }
 }
