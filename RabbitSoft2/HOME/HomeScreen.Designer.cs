@@ -330,6 +330,7 @@
             "GAS",
             "SMOKES",
             "BILLS",
+            "TIP ADJUSTMENTS",
             "OTHER"});
             this.cb_ExpenseDescription.Size = new System.Drawing.Size(202, 30);
             this.cb_ExpenseDescription.TabIndex = 61;

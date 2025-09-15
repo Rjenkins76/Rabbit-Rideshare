@@ -130,47 +130,4 @@ so the average speed of the train would be 20
 
 </value>
   </data>
-  <data name="labelControl3.Text" xml:space="preserve">
-    <value>first we would start with the given information the given Distance 
-(Displacement) of the train. we are asked to calculate the when the
-train moves from 50m to 60m 
-
-60 - 50 = 10m change in distance
-
-then we will look at the above graph to see where there may be points
-for both 50 and 60 meters that match time.
-as we can see that it reaches 50m in 15s and 60m is 30s 
-30 - 15 = 15s 
-
-now using the provided formula we can plug in our numbers
-v = 10s / 15t = 0.67</value>
-  </data>
-  <data name="labelControl6.Text" xml:space="preserve">
-    <value>the slope of each point would represent the speed of the train 
-for that point when we look at the graph we can see at the 
-begining the train is moving faster then it will level off and the 
-train stops for a few points then we can see at the last point 
-that it started moving backwards</value>
-  </data>
-  <data name="labelControl7.Text" xml:space="preserve">
-    <value>First we will calclulate the difference in displacement as this was already given 
-to us in the question 55m - 70m = -15m which also tells us the train is going backwards
-
-then we can find the time from the first stop @ 70m and that is 35 then the stop at 55m 
-is at 30 and when we do this we get 35 - 15 = 15 
-
-our new equation is -- avg speed = |-15| / 15 = 1m/s
-the negative again tells us that the train is moving backwards which is verified by the 
-graph as 55m is less than the 70m</value>
-  </data>
-  <data name="labelControl11.Text" xml:space="preserve">
-    <value>The displacement only focuses on the begining and the end of
-the journey. when we look at the graph at 0s we are at the start 
-thus at position 0m
-then when we look at the 50s mark we are at 55m position, we
-can use these to calculate the displacement
-55m - 0m = 55m and this would be our answer
-
-</value>
-  </data>
 </root>

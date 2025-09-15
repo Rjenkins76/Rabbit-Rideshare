@@ -345,10 +345,14 @@ namespace RabbitSoft2
                                     {
                                         if (LineItemTime.IsBetween(starttime, endtime))
                                         {
-                                            BasePay += Convert.ToDouble(reader[4].ToString());
-                                            Tip_OtherPay += Convert.ToDouble(reader[5].ToString());
-                                            TotalPay += Convert.ToDouble(reader[6].ToString());
-                                            totalTrips++;
+                                            if(LineItemTime > TimeOnly.Parse("05:00 AM"))
+                                            {
+                                                BasePay += Convert.ToDouble(reader[4].ToString());
+                                                Tip_OtherPay += Convert.ToDouble(reader[5].ToString());
+                                                TotalPay += Convert.ToDouble(reader[6].ToString());
+                                                totalTrips++;
+                                            }
+                                            
                                         }
                                     }
                                     else if (Convert.ToDateTime(reader[2].ToString()).ToShortDateString() == processdate.AddDays(1).ToShortDateString())

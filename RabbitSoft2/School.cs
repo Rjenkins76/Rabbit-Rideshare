@@ -18,14 +18,15 @@ namespace RabbitSoft2
         {
             InitializeComponent();
 
-            double[] dataX = { 0,5,10,15,20,30,35,40,45,50 };
-            double[] dataY = { 0,20,40,50,55,60,70,70,70,55 };
+            //double[] dataX = { 0, 1.02, 1.22, 1.54, 1.78, 1.97, 2.20, 2.57, 2.75 };
+            //double[] dataY = { 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 };
 
-            formsPlot1.Plot.Add.Scatter(dataX, dataY);
-            formsPlot1.Plot.Axes.Title.Label.Text = "Distance vs Time of a Moving Object";
-            formsPlot1.Plot.XLabel("TIME");
-            formsPlot1.Plot.YLabel("DISPLACEMENT");
-            formsPlot1.Refresh();
+            //formsPlot1.Plot.Add.Scatter(dataX, dataY);
+            //formsPlot1.Plot.Axes.Title.Label.Text = "Distance vs Time (m) ".ToUpper();
+            //formsPlot1.Plot.XLabel("TIME");
+            //formsPlot1.Plot.YLabel("DISTANCE");
+            //formsPlot1.Refresh();
+
         }
     }
 }

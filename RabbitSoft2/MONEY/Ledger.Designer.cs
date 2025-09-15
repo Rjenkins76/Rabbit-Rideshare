@@ -112,6 +112,10 @@
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue25 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule26 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue26 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule27 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue27 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule28 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue28 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             this.colTOTALHOURS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTALHOURS_DEC = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTALPAY = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -145,7 +149,7 @@
             this.colTOTALHOURS.Name = "colTOTALHOURS";
             this.colTOTALHOURS.Visible = true;
             this.colTOTALHOURS.VisibleIndex = 3;
-            this.colTOTALHOURS.Width = 87;
+            this.colTOTALHOURS.Width = 86;
             // 
             // colTOTALHOURS_DEC
             // 
@@ -157,7 +161,7 @@
             this.colTOTALHOURS_DEC.Name = "colTOTALHOURS_DEC";
             this.colTOTALHOURS_DEC.Visible = true;
             this.colTOTALHOURS_DEC.VisibleIndex = 4;
-            this.colTOTALHOURS_DEC.Width = 67;
+            this.colTOTALHOURS_DEC.Width = 66;
             // 
             // colTOTALPAY
             // 
@@ -173,7 +177,7 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TOTALPAY", "{0:c2}")});
             this.colTOTALPAY.Visible = true;
             this.colTOTALPAY.VisibleIndex = 9;
-            this.colTOTALPAY.Width = 88;
+            this.colTOTALPAY.Width = 85;
             // 
             // colRUNNINGTOTAL
             // 
@@ -187,7 +191,7 @@
             this.colRUNNINGTOTAL.Name = "colRUNNINGTOTAL";
             this.colRUNNINGTOTAL.Visible = true;
             this.colRUNNINGTOTAL.VisibleIndex = 10;
-            this.colRUNNINGTOTAL.Width = 100;
+            this.colRUNNINGTOTAL.Width = 97;
             // 
             // colHOURLYPAY
             // 
@@ -201,7 +205,7 @@
             this.colHOURLYPAY.Name = "colHOURLYPAY";
             this.colHOURLYPAY.Visible = true;
             this.colHOURLYPAY.VisibleIndex = 11;
-            this.colHOURLYPAY.Width = 72;
+            this.colHOURLYPAY.Width = 69;
             // 
             // colAVGTRIPAMOUNT
             // 
@@ -215,7 +219,7 @@
             this.colAVGTRIPAMOUNT.Name = "colAVGTRIPAMOUNT";
             this.colAVGTRIPAMOUNT.Visible = true;
             this.colAVGTRIPAMOUNT.VisibleIndex = 12;
-            this.colAVGTRIPAMOUNT.Width = 81;
+            this.colAVGTRIPAMOUNT.Width = 78;
             // 
             // colSTART_TIME
             // 
@@ -227,7 +231,7 @@
             this.colSTART_TIME.Name = "colSTART_TIME";
             this.colSTART_TIME.Visible = true;
             this.colSTART_TIME.VisibleIndex = 1;
-            this.colSTART_TIME.Width = 103;
+            this.colSTART_TIME.Width = 102;
             // 
             // colEND_TIME
             // 
@@ -239,7 +243,7 @@
             this.colEND_TIME.Name = "colEND_TIME";
             this.colEND_TIME.Visible = true;
             this.colEND_TIME.VisibleIndex = 2;
-            this.colEND_TIME.Width = 88;
+            this.colEND_TIME.Width = 87;
             // 
             // colTOTALTRIPS
             // 
@@ -253,7 +257,7 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TOTALTRIPS", "{0:0.##}")});
             this.colTOTALTRIPS.Visible = true;
             this.colTOTALTRIPS.VisibleIndex = 6;
-            this.colTOTALTRIPS.Width = 88;
+            this.colTOTALTRIPS.Width = 87;
             // 
             // colBASEPAY
             // 
@@ -269,7 +273,7 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "BASEPAY", "{0:c2}")});
             this.colBASEPAY.Visible = true;
             this.colBASEPAY.VisibleIndex = 7;
-            this.colBASEPAY.Width = 86;
+            this.colBASEPAY.Width = 103;
             // 
             // colTIPS_OTHER
             // 
@@ -285,7 +289,7 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TIPS_OTHER", "{0:c2}")});
             this.colTIPS_OTHER.Visible = true;
             this.colTIPS_OTHER.VisibleIndex = 8;
-            this.colTIPS_OTHER.Width = 100;
+            this.colTIPS_OTHER.Width = 97;
             // 
             // colACTIVITY
             // 
@@ -293,7 +297,7 @@
             this.colACTIVITY.Name = "colACTIVITY";
             this.colACTIVITY.Visible = true;
             this.colACTIVITY.VisibleIndex = 5;
-            this.colACTIVITY.Width = 197;
+            this.colACTIVITY.Width = 196;
             // 
             // sqlDataSource1
             // 
@@ -382,6 +386,13 @@
             this.gridView1.Appearance.FooterPanel.Options.UseFont = true;
             this.gridView1.Appearance.FooterPanel.Options.UseTextOptions = true;
             this.gridView1.Appearance.FooterPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.gridView1.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.HeaderPanel.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridView1.Appearance.HeaderPanel.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.gridView1.Appearance.Row.Options.UseTextOptions = true;
+            this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.Row.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colDATE,
             this.colSTART_TIME,
@@ -404,7 +415,6 @@
             formatConditionRuleValue1.Appearance.ForeColor = System.Drawing.Color.White;
             formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
             formatConditionRuleValue1.Appearance.Options.UseForeColor = true;
-            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.NotEqual;
             gridFormatRule1.Rule = formatConditionRuleValue1;
             gridFormatRule2.Column = this.colTOTALHOURS_DEC;
             gridFormatRule2.Description = null;
@@ -569,48 +579,70 @@
             gridFormatRule22.ApplyToRow = true;
             gridFormatRule22.Column = this.colACTIVITY;
             gridFormatRule22.Description = null;
-            gridFormatRule22.Name = "Format0";
-            formatConditionRuleValue22.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            gridFormatRule22.Name = "TIP ADJUSTMENTS";
+            formatConditionRuleValue22.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Bold);
+            formatConditionRuleValue22.Appearance.ForeColor = System.Drawing.Color.SeaGreen;
+            formatConditionRuleValue22.Appearance.Options.UseFont = true;
             formatConditionRuleValue22.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue22.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue22.Value1 = "UBER DELIVERIES";
+            formatConditionRuleValue22.Value1 = "TIP ADJUSTMENTS";
             gridFormatRule22.Rule = formatConditionRuleValue22;
             gridFormatRule23.ApplyToRow = true;
             gridFormatRule23.Column = this.colACTIVITY;
             gridFormatRule23.Description = null;
-            gridFormatRule23.Name = "Format1";
-            formatConditionRuleValue23.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            gridFormatRule23.Name = "Format0";
+            formatConditionRuleValue23.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
             formatConditionRuleValue23.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue23.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue23.Value1 = "UBER RIDES";
+            formatConditionRuleValue23.Value1 = "UBER DELIVERIES";
             gridFormatRule23.Rule = formatConditionRuleValue23;
             gridFormatRule24.ApplyToRow = true;
             gridFormatRule24.Column = this.colACTIVITY;
             gridFormatRule24.Description = null;
-            gridFormatRule24.Name = "Format2";
-            formatConditionRuleValue24.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            gridFormatRule24.Name = "Format1";
+            formatConditionRuleValue24.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             formatConditionRuleValue24.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue24.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue24.Value1 = "LYFT";
+            formatConditionRuleValue24.Value1 = "UBER RIDES";
             gridFormatRule24.Rule = formatConditionRuleValue24;
             gridFormatRule25.ApplyToRow = true;
             gridFormatRule25.Column = this.colACTIVITY;
             gridFormatRule25.Description = null;
-            gridFormatRule25.Name = "Format3";
-            formatConditionRuleValue25.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            gridFormatRule25.Name = "Format2";
+            formatConditionRuleValue25.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
             formatConditionRuleValue25.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue25.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue25.Value1 = "INSTACART";
+            formatConditionRuleValue25.Value1 = "LYFT";
             gridFormatRule25.Rule = formatConditionRuleValue25;
             gridFormatRule26.ApplyToRow = true;
             gridFormatRule26.Column = this.colACTIVITY;
             gridFormatRule26.Description = null;
-            gridFormatRule26.Name = "Format4";
-            formatConditionRuleValue26.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(48)))), ((int)(((byte)(8)))));
+            gridFormatRule26.Name = "Format3";
+            formatConditionRuleValue26.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             formatConditionRuleValue26.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue26.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue26.Value1 = "DOOR DASH";
+            formatConditionRuleValue26.Value1 = "INSTACART";
             gridFormatRule26.Rule = formatConditionRuleValue26;
+            gridFormatRule27.ApplyToRow = true;
+            gridFormatRule27.Column = this.colACTIVITY;
+            gridFormatRule27.Description = null;
+            gridFormatRule27.Name = "Format4";
+            formatConditionRuleValue27.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(48)))), ((int)(((byte)(8)))));
+            formatConditionRuleValue27.Appearance.Options.UseForeColor = true;
+            formatConditionRuleValue27.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue27.Value1 = "DOOR DASH";
+            gridFormatRule27.Rule = formatConditionRuleValue27;
+            gridFormatRule28.Column = this.colACTIVITY;
+            gridFormatRule28.ColumnApplyTo = this.colTOTALPAY;
+            gridFormatRule28.Description = null;
+            gridFormatRule28.Name = "Format5";
+            formatConditionRuleValue28.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Bold);
+            formatConditionRuleValue28.Appearance.ForeColor = System.Drawing.Color.SeaGreen;
+            formatConditionRuleValue28.Appearance.Options.UseFont = true;
+            formatConditionRuleValue28.Appearance.Options.UseForeColor = true;
+            formatConditionRuleValue28.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue28.Value1 = "TIP ADJUSTMENTS";
+            gridFormatRule28.Rule = formatConditionRuleValue28;
             this.gridView1.FormatRules.Add(gridFormatRule1);
             this.gridView1.FormatRules.Add(gridFormatRule2);
             this.gridView1.FormatRules.Add(gridFormatRule3);
@@ -637,6 +669,8 @@
             this.gridView1.FormatRules.Add(gridFormatRule24);
             this.gridView1.FormatRules.Add(gridFormatRule25);
             this.gridView1.FormatRules.Add(gridFormatRule26);
+            this.gridView1.FormatRules.Add(gridFormatRule27);
+            this.gridView1.FormatRules.Add(gridFormatRule28);
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsCustomization.AllowFilter = false;
@@ -654,7 +688,7 @@
             this.colDATE.Name = "colDATE";
             this.colDATE.Visible = true;
             this.colDATE.VisibleIndex = 0;
-            this.colDATE.Width = 112;
+            this.colDATE.Width = 111;
             // 
             // colNOTES
             // 
@@ -662,7 +696,7 @@
             this.colNOTES.Name = "colNOTES";
             this.colNOTES.Visible = true;
             this.colNOTES.VisibleIndex = 13;
-            this.colNOTES.Width = 624;
+            this.colNOTES.Width = 628;
             // 
             // Ledger
             // 
