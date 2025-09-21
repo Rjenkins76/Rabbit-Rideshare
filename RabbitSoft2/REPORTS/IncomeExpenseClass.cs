@@ -54,7 +54,7 @@ namespace RabbitSoft2
                     DataRow dataRow = Uber_Rides_dt.NewRow();
                     for (int i = 0; i < Uber_Rides_dt.Columns.Count; i++)
                     {
-                        if (row[Uber_Rides_dt.Columns[i].ColumnName] != DBNull.Value)
+                        if (row[Uber_Rides_dt.Columns[i].ColumnName] != null)
                         {
                             dataRow[i] = row[Uber_Rides_dt.Columns[i].ColumnName];
                         }
@@ -140,11 +140,11 @@ namespace RabbitSoft2
                     DataRow dataRow = Uber_Eats_dt.NewRow();
                     for (int i = 0; i < Uber_Eats_dt.Columns.Count; i++)
                     {
-                        if (row[Uber_Eats_dt.Columns[i].ColumnName] != DBNull.Value)
+                        if (row[Uber_Eats_dt.Columns[i].ColumnName] != null)
                         {
                             dataRow[i] = row[Uber_Eats_dt.Columns[i].ColumnName];
                         }
-                        else
+                        else if (row[Uber_Eats_dt.Columns[i].ColumnName] == null)
                         {
                             dataRow[i] = 0;
                         }

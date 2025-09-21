@@ -352,6 +352,12 @@
     <Compile Include="DOORDASH\DoorDashViewData.Designer.cs">
       <DependentUpon>DoorDashViewData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ledger2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ledger2.Designer.cs">
+      <DependentUpon>Ledger2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MonthYearSelect.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -473,6 +479,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DOORDASH\DoorDashViewData.resx">
       <DependentUpon>DoorDashViewData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ledger2.resx">
+      <DependentUpon>Ledger2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MONEY\TAXES\TaxOrganizer.resx">
       <DependentUpon>TaxOrganizer.cs</DependentUpon>

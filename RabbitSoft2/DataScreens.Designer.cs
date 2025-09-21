@@ -50,7 +50,8 @@
             this.colNOTES = new DevExpress.XtraGrid.Columns.GridColumn();
             this.ledgerTableAdapter1 = new RabbitSoft2.RABBIT_RIDESHAREDataSetTableAdapters.LEDGERTableAdapter();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.rABBIT_RIDESHAREDataSet = new RabbitSoft2.RABBIT_RIDESHAREDataSet();
+            this.mILEAGELOGBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rabbiT_RIDESHAREDataSet2 = new RabbitSoft2.RABBIT_RIDESHAREDataSet();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colID1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDATE1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -61,7 +62,10 @@
             this.colENDMILES = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTALMILES = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colNUMBERTRIPS = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.rABBIT_RIDESHAREDataSet = new RabbitSoft2.RABBIT_RIDESHAREDataSet();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
+            this.trip_ActivityBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rabbiT_RIDESHAREDataSet3 = new RabbitSoft2.RABBIT_RIDESHAREDataSet();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colTRIP_ID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPROVIDER = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -71,25 +75,21 @@
             this.colTOTAL_TIPS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTAL_COLLECTED = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTAL_MILEAGE = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.mILEAGELOGBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.rabbiT_RIDESHAREDataSet2 = new RabbitSoft2.RABBIT_RIDESHAREDataSet();
             this.mileagelogTableAdapter1 = new RabbitSoft2.RABBIT_RIDESHAREDataSetTableAdapters.MILEAGELOGTableAdapter();
-            this.trip_ActivityBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.rabbiT_RIDESHAREDataSet3 = new RabbitSoft2.RABBIT_RIDESHAREDataSet();
             this.trip_ActivityTableAdapter1 = new RabbitSoft2.RABBIT_RIDESHAREDataSetTableAdapters.Trip_ActivityTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lEDGERBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rABBIT_RIDESHAREDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mILEAGELOGBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rABBIT_RIDESHAREDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trip_ActivityBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // gridControl1
@@ -255,10 +255,16 @@
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
-            // rABBIT_RIDESHAREDataSet
+            // mILEAGELOGBindingSource
             // 
-            this.rABBIT_RIDESHAREDataSet.DataSetName = "RABBIT_RIDESHAREDataSet";
-            this.rABBIT_RIDESHAREDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.mILEAGELOGBindingSource.DataMember = "MILEAGELOG";
+            this.mILEAGELOGBindingSource.DataSource = this.rabbiT_RIDESHAREDataSet2;
+            this.mILEAGELOGBindingSource.Sort = "";
+            // 
+            // rabbiT_RIDESHAREDataSet2
+            // 
+            this.rabbiT_RIDESHAREDataSet2.DataSetName = "RABBIT_RIDESHAREDataSet";
+            this.rabbiT_RIDESHAREDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // gridView2
             // 
@@ -338,16 +344,32 @@
             this.colNUMBERTRIPS.Visible = true;
             this.colNUMBERTRIPS.VisibleIndex = 8;
             // 
+            // rABBIT_RIDESHAREDataSet
+            // 
+            this.rABBIT_RIDESHAREDataSet.DataSetName = "RABBIT_RIDESHAREDataSet";
+            this.rABBIT_RIDESHAREDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // gridControl3
             // 
             this.gridControl3.DataSource = this.trip_ActivityBindingSource;
             this.gridControl3.Location = new System.Drawing.Point(3, 432);
             this.gridControl3.MainView = this.gridView3;
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(1183, 562);
+            this.gridControl3.Size = new System.Drawing.Size(1183, 532);
             this.gridControl3.TabIndex = 2;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
+            // 
+            // trip_ActivityBindingSource
+            // 
+            this.trip_ActivityBindingSource.DataMember = "Trip_Activity";
+            this.trip_ActivityBindingSource.DataSource = this.rabbiT_RIDESHAREDataSet3;
+            this.trip_ActivityBindingSource.Sort = "";
+            // 
+            // rabbiT_RIDESHAREDataSet3
+            // 
+            this.rabbiT_RIDESHAREDataSet3.DataSetName = "RABBIT_RIDESHAREDataSet";
+            this.rabbiT_RIDESHAREDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // gridView3
             // 
@@ -362,6 +384,7 @@
             this.colTOTAL_MILEAGE});
             this.gridView3.GridControl = this.gridControl3;
             this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsView.ShowFooter = true;
             // 
             // colTRIP_ID
             // 
@@ -395,6 +418,8 @@
             // 
             this.colTOTAL_FARE.FieldName = "TOTAL_FARE";
             this.colTOTAL_FARE.Name = "colTOTAL_FARE";
+            this.colTOTAL_FARE.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TOTAL_FARE", "${0:0.##}")});
             this.colTOTAL_FARE.Visible = true;
             this.colTOTAL_FARE.VisibleIndex = 4;
             // 
@@ -402,6 +427,8 @@
             // 
             this.colTOTAL_TIPS.FieldName = "TOTAL_TIPS";
             this.colTOTAL_TIPS.Name = "colTOTAL_TIPS";
+            this.colTOTAL_TIPS.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TOTAL_TIPS", "${0:0.##}")});
             this.colTOTAL_TIPS.Visible = true;
             this.colTOTAL_TIPS.VisibleIndex = 5;
             // 
@@ -409,6 +436,8 @@
             // 
             this.colTOTAL_COLLECTED.FieldName = "TOTAL_COLLECTED";
             this.colTOTAL_COLLECTED.Name = "colTOTAL_COLLECTED";
+            this.colTOTAL_COLLECTED.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TOTAL_COLLECTED", "${0:0.##}")});
             this.colTOTAL_COLLECTED.Visible = true;
             this.colTOTAL_COLLECTED.VisibleIndex = 6;
             // 
@@ -419,31 +448,9 @@
             this.colTOTAL_MILEAGE.Visible = true;
             this.colTOTAL_MILEAGE.VisibleIndex = 7;
             // 
-            // mILEAGELOGBindingSource
-            // 
-            this.mILEAGELOGBindingSource.DataMember = "MILEAGELOG";
-            this.mILEAGELOGBindingSource.DataSource = this.rabbiT_RIDESHAREDataSet2;
-            this.mILEAGELOGBindingSource.Sort = "";
-            // 
-            // rabbiT_RIDESHAREDataSet2
-            // 
-            this.rabbiT_RIDESHAREDataSet2.DataSetName = "RABBIT_RIDESHAREDataSet";
-            this.rabbiT_RIDESHAREDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // mileagelogTableAdapter1
             // 
             this.mileagelogTableAdapter1.ClearBeforeFill = true;
-            // 
-            // trip_ActivityBindingSource
-            // 
-            this.trip_ActivityBindingSource.DataMember = "Trip_Activity";
-            this.trip_ActivityBindingSource.DataSource = this.rabbiT_RIDESHAREDataSet3;
-            this.trip_ActivityBindingSource.Sort = "";
-            // 
-            // rabbiT_RIDESHAREDataSet3
-            // 
-            this.rabbiT_RIDESHAREDataSet3.DataSetName = "RABBIT_RIDESHAREDataSet";
-            this.rabbiT_RIDESHAREDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // trip_ActivityTableAdapter1
             // 
@@ -463,14 +470,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rABBIT_RIDESHAREDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mILEAGELOGBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rABBIT_RIDESHAREDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trip_ActivityBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
 
         }

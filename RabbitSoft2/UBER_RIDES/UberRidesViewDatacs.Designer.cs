@@ -136,14 +136,15 @@
             this.colTRIP_ID.Name = "colTRIP_ID";
             this.colTRIP_ID.Visible = true;
             this.colTRIP_ID.VisibleIndex = 0;
-            this.colTRIP_ID.Width = 381;
+            this.colTRIP_ID.Width = 316;
             // 
             // colDATE
             // 
             this.colDATE.FieldName = "DATE";
             this.colDATE.Name = "colDATE";
             this.colDATE.Visible = true;
-            this.colDATE.VisibleIndex = 1;
+            this.colDATE.VisibleIndex = 0;
+            this.colDATE.Width = 109;
             // 
             // colTOTAL_FARE
             // 
@@ -157,7 +158,7 @@
             this.colTOTAL_FARE.Name = "colTOTAL_FARE";
             this.colTOTAL_FARE.Visible = true;
             this.colTOTAL_FARE.VisibleIndex = 1;
-            this.colTOTAL_FARE.Width = 81;
+            this.colTOTAL_FARE.Width = 66;
             // 
             // colTOTAL_TIPS
             // 
@@ -171,7 +172,7 @@
             this.colTOTAL_TIPS.Name = "colTOTAL_TIPS";
             this.colTOTAL_TIPS.Visible = true;
             this.colTOTAL_TIPS.VisibleIndex = 2;
-            this.colTOTAL_TIPS.Width = 79;
+            this.colTOTAL_TIPS.Width = 64;
             // 
             // colTOTAL_COLLECTED
             // 
@@ -185,7 +186,7 @@
             this.colTOTAL_COLLECTED.Name = "colTOTAL_COLLECTED";
             this.colTOTAL_COLLECTED.Visible = true;
             this.colTOTAL_COLLECTED.VisibleIndex = 3;
-            this.colTOTAL_COLLECTED.Width = 113;
+            this.colTOTAL_COLLECTED.Width = 98;
             // 
             // UberRidesViewDatacs
             // 

@@ -58,7 +58,7 @@ namespace RabbitSoft2
 
             if (result == DialogResult.OK)
             {
-                Ledger ledger = new Ledger(selector.cb_MonthSelect.SelectedIndex, Convert.ToInt32(selector.cb_YearSelect.Text));
+                Ledger2 ledger = new Ledger2(selector.cb_MonthSelect.SelectedIndex, Convert.ToInt32(selector.cb_YearSelect.Text));
                 ledger.Dock = DockStyle.Fill;
 
                 panelControl1.Controls.Clear();
