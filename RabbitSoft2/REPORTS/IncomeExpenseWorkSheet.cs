@@ -221,8 +221,8 @@ namespace RabbitSoft2
             AvgTripAmount = Math.Round(TotalTripsPay / NumberTrips, 2);
 
             textEdit2.Text = AvgTripAmount.ToString();
-            worksheet.Cells["B19"].Value = AvgTripAmount;
-            spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B20"].Value.ToString());
+            worksheet.Cells["B21"].Value = AvgTripAmount;
+            spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString());
 
 
             foreach (DataRow row in Expenses_dt.Rows)
@@ -231,7 +231,7 @@ namespace RabbitSoft2
             }
 
 
-            ExpensesAmountBiWeek = Convert.ToDouble(worksheet.Cells["B10"].Value.ToString());
+            ExpensesAmountBiWeek = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString());
             Update_Calculations(new Label(),null);
 
         }
@@ -250,7 +250,7 @@ namespace RabbitSoft2
 
                 workbook = spreadsheetControl1.Document;
                 worksheet = workbook.Worksheets[0];
-                worksheet.Cells["A19"].Value = "AVG PER TRIP:";
+                worksheet.Cells["A21"].Value = "AVG PER TRIP:";
                 
 
             }

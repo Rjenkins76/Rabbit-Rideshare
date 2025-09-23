@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraScheduler.TimeRuler timeRuler1 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler2 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler3 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler7 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler8 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler9 = new DevExpress.XtraScheduler.TimeRuler();
             this.schedulerControl1 = new DevExpress.XtraScheduler.SchedulerControl();
             this.schedulerDataStorage1 = new DevExpress.XtraScheduler.SchedulerDataStorage(this.components);
             this.appointmentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -59,11 +59,11 @@
             this.schedulerControl1.Start = new System.DateTime(2025, 8, 18, 0, 0, 0, 0);
             this.schedulerControl1.TabIndex = 0;
             this.schedulerControl1.Text = "schedulerControl1";
-            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler1);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler7);
             this.schedulerControl1.Views.FullWeekView.Enabled = true;
-            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler2);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler8);
             this.schedulerControl1.Views.MonthView.AppointmentDisplayOptions.AppointmentAutoHeight = true;
-            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler3);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler9);
             this.schedulerControl1.Views.YearView.UseOptimizedScrolling = false;
             // 
             // schedulerDataStorage1
@@ -144,6 +144,7 @@
             this.Controls.Add(this.schedulerControl1);
             this.Name = "Bills";
             this.Size = new System.Drawing.Size(971, 488);
+            this.ParentChanged += new System.EventHandler(this.Bills_ParentChanged);
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.appointmentsBindingSource)).EndInit();
