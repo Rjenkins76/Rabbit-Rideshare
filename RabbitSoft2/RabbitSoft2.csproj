@@ -334,6 +334,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IncomeExpenseWorkSheet2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IncomeExpenseWorkSheet2.Designer.cs">
+      <DependentUpon>IncomeExpenseWorkSheet2.cs</DependentUpon>
+    </Compile>
     <Compile Include="REPORTS\DataScreens.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -471,6 +477,9 @@
       <DependentUpon>UpdateTripMileage.cs</DependentUpon>
     </Compile>
     <Compile Include="WORKSHIFT\WorkShiftDataClass.cs" />
+    <EmbeddedResource Include="IncomeExpenseWorkSheet2.resx">
+      <DependentUpon>IncomeExpenseWorkSheet2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="REPORTS\DataScreens.resx">
       <DependentUpon>DataScreens.cs</DependentUpon>
     </EmbeddedResource>

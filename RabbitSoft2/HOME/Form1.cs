@@ -68,7 +68,7 @@ namespace RabbitSoft2
 
         private void barButtonItem9_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            IncomeExpenseWorkSheet workSheet = new IncomeExpenseWorkSheet();
+            IncomeExpenseWorkSheet2 workSheet = new IncomeExpenseWorkSheet2();
             workSheet.Dock = DockStyle.Fill;
 
             panelControl1.Controls.Clear();
