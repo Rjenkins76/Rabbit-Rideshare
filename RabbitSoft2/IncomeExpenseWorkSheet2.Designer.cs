@@ -185,37 +185,37 @@
             // 
             // labelControl17
             // 
-            this.labelControl17.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
+            this.labelControl17.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
             this.labelControl17.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
             this.labelControl17.Location = new System.Drawing.Point(162, 172);
             this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(135, 21);
+            this.labelControl17.Size = new System.Drawing.Size(124, 20);
             this.labelControl17.TabIndex = 19;
             this.labelControl17.Text = "TRIPS PER DAY: ";
             // 
             // labelControl16
             // 
-            this.labelControl16.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
+            this.labelControl16.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
             this.labelControl16.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
             this.labelControl16.Appearance.Options.UseFont = true;
             this.labelControl16.Appearance.Options.UseForeColor = true;
             this.labelControl16.Location = new System.Drawing.Point(143, 132);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(153, 21);
+            this.labelControl16.Size = new System.Drawing.Size(152, 20);
             this.labelControl16.TabIndex = 18;
             this.labelControl16.Text = "PER TRIP AMOUNT: ";
             // 
             // labelControl15
             // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
+            this.labelControl15.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
             this.labelControl15.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
             this.labelControl15.Location = new System.Drawing.Point(19, 132);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(45, 21);
+            this.labelControl15.Size = new System.Drawing.Size(43, 20);
             this.labelControl15.TabIndex = 17;
             this.labelControl15.Text = "LYFT:";
             // 
@@ -230,37 +230,37 @@
             // 
             // labelControl14
             // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl14.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
             this.labelControl14.Location = new System.Drawing.Point(161, 70);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(135, 21);
+            this.labelControl14.Size = new System.Drawing.Size(124, 20);
             this.labelControl14.TabIndex = 15;
             this.labelControl14.Text = "TRIPS PER DAY: ";
             // 
             // labelControl13
             // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl13.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
             this.labelControl13.Location = new System.Drawing.Point(143, 36);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(153, 21);
+            this.labelControl13.Size = new System.Drawing.Size(152, 20);
             this.labelControl13.TabIndex = 14;
             this.labelControl13.Text = "PER TRIP AMOUNT: ";
             // 
             // labelControl12
             // 
-            this.labelControl12.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
+            this.labelControl12.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl12.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.labelControl12.Appearance.Options.UseFont = true;
             this.labelControl12.Appearance.Options.UseForeColor = true;
             this.labelControl12.Location = new System.Drawing.Point(19, 36);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(54, 42);
+            this.labelControl12.Size = new System.Drawing.Size(50, 40);
             this.labelControl12.TabIndex = 13;
             this.labelControl12.Text = "UBER\r\nRIDES:";
             // 
@@ -310,37 +310,37 @@
             // 
             // labelControl23
             // 
-            this.labelControl23.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl23.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(48)))), ((int)(((byte)(8)))));
+            this.labelControl23.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
+            this.labelControl23.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.labelControl23.Appearance.Options.UseFont = true;
             this.labelControl23.Appearance.Options.UseForeColor = true;
             this.labelControl23.Location = new System.Drawing.Point(155, 358);
             this.labelControl23.Name = "labelControl23";
-            this.labelControl23.Size = new System.Drawing.Size(135, 21);
+            this.labelControl23.Size = new System.Drawing.Size(124, 20);
             this.labelControl23.TabIndex = 33;
             this.labelControl23.Text = "TRIPS PER DAY: ";
             // 
             // labelControl22
             // 
-            this.labelControl22.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl22.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(48)))), ((int)(((byte)(8)))));
+            this.labelControl22.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
+            this.labelControl22.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.labelControl22.Appearance.Options.UseFont = true;
             this.labelControl22.Appearance.Options.UseForeColor = true;
             this.labelControl22.Location = new System.Drawing.Point(141, 324);
             this.labelControl22.Name = "labelControl22";
-            this.labelControl22.Size = new System.Drawing.Size(153, 21);
+            this.labelControl22.Size = new System.Drawing.Size(152, 20);
             this.labelControl22.TabIndex = 32;
             this.labelControl22.Text = "PER TRIP AMOUNT: ";
             // 
             // labelControl21
             // 
-            this.labelControl21.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl21.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(48)))), ((int)(((byte)(8)))));
+            this.labelControl21.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
+            this.labelControl21.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.labelControl21.Appearance.Options.UseFont = true;
             this.labelControl21.Appearance.Options.UseForeColor = true;
             this.labelControl21.Location = new System.Drawing.Point(19, 324);
             this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Size = new System.Drawing.Size(45, 42);
+            this.labelControl21.Size = new System.Drawing.Size(49, 40);
             this.labelControl21.TabIndex = 31;
             this.labelControl21.Text = "DOOR\r\nDASH:";
             // 
@@ -390,44 +390,44 @@
             // 
             // labelControl20
             // 
-            this.labelControl20.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl20.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.labelControl20.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
+            this.labelControl20.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(211)))));
             this.labelControl20.Appearance.Options.UseFont = true;
             this.labelControl20.Appearance.Options.UseForeColor = true;
             this.labelControl20.Location = new System.Drawing.Point(158, 262);
             this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(135, 21);
+            this.labelControl20.Size = new System.Drawing.Size(124, 20);
             this.labelControl20.TabIndex = 28;
             this.labelControl20.Text = "TRIPS PER DAY: ";
             // 
             // labelControl19
             // 
-            this.labelControl19.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl19.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.labelControl19.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
+            this.labelControl19.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(211)))));
             this.labelControl19.Appearance.Options.UseFont = true;
             this.labelControl19.Appearance.Options.UseForeColor = true;
             this.labelControl19.Location = new System.Drawing.Point(144, 228);
             this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(153, 21);
+            this.labelControl19.Size = new System.Drawing.Size(152, 20);
             this.labelControl19.TabIndex = 29;
             this.labelControl19.Text = "PER TRIP AMOUNT: ";
             // 
             // labelControl18
             // 
-            this.labelControl18.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl18.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F);
+            this.labelControl18.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(211)))));
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
             this.labelControl18.Location = new System.Drawing.Point(19, 228);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(99, 42);
+            this.labelControl18.Size = new System.Drawing.Size(92, 40);
             this.labelControl18.TabIndex = 30;
             this.labelControl18.Text = "UBER\r\nDELIVERIES:";
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F);
-            this.labelControl5.Appearance.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F, System.Drawing.FontStyle.Bold);
+            this.labelControl5.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(140)))), ((int)(((byte)(70)))));
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Appearance.Options.UseForeColor = true;
             this.labelControl5.Location = new System.Drawing.Point(99, 15);
@@ -438,8 +438,8 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F);
-            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F, System.Drawing.FontStyle.Bold);
+            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(140)))), ((int)(((byte)(70)))));
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Appearance.Options.UseForeColor = true;
             this.labelControl3.Location = new System.Drawing.Point(15, 15);
@@ -481,13 +481,13 @@
             // 
             // lbl_AmtNeedPerDay_Profit
             // 
-            this.lbl_AmtNeedPerDay_Profit.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_AmtNeedPerDay_Profit.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lbl_AmtNeedPerDay_Profit.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_AmtNeedPerDay_Profit.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.lbl_AmtNeedPerDay_Profit.Appearance.Options.UseFont = true;
             this.lbl_AmtNeedPerDay_Profit.Appearance.Options.UseForeColor = true;
-            this.lbl_AmtNeedPerDay_Profit.Location = new System.Drawing.Point(292, 171);
+            this.lbl_AmtNeedPerDay_Profit.Location = new System.Drawing.Point(298, 171);
             this.lbl_AmtNeedPerDay_Profit.Name = "lbl_AmtNeedPerDay_Profit";
-            this.lbl_AmtNeedPerDay_Profit.Size = new System.Drawing.Size(64, 21);
+            this.lbl_AmtNeedPerDay_Profit.Size = new System.Drawing.Size(65, 20);
             this.lbl_AmtNeedPerDay_Profit.TabIndex = 79;
             this.lbl_AmtNeedPerDay_Profit.Text = "$650.00";
             // 
@@ -583,85 +583,85 @@
             // 
             // lb_startPeriodAmountNeeded10Day
             // 
-            this.lb_startPeriodAmountNeeded10Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_startPeriodAmountNeeded10Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.lb_startPeriodAmountNeeded10Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_startPeriodAmountNeeded10Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.lb_startPeriodAmountNeeded10Day.Appearance.Options.UseFont = true;
             this.lb_startPeriodAmountNeeded10Day.Appearance.Options.UseForeColor = true;
             this.lb_startPeriodAmountNeeded10Day.Location = new System.Drawing.Point(48, 62);
             this.lb_startPeriodAmountNeeded10Day.Name = "lb_startPeriodAmountNeeded10Day";
-            this.lb_startPeriodAmountNeeded10Day.Size = new System.Drawing.Size(72, 34);
+            this.lb_startPeriodAmountNeeded10Day.Size = new System.Drawing.Size(64, 32);
             this.lb_startPeriodAmountNeeded10Day.TabIndex = 81;
             this.lb_startPeriodAmountNeeded10Day.Text = " 10-DAY\r\n$9,999.00";
             // 
             // labelControl2
             // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
             this.labelControl2.Location = new System.Drawing.Point(124, 35);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(162, 21);
+            this.labelControl2.Size = new System.Drawing.Size(168, 20);
             this.labelControl2.TabIndex = 80;
             this.labelControl2.Text = " MIN. AMOUNT NEED ";
             // 
             // labelControl4
             // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Appearance.Options.UseForeColor = true;
             this.labelControl4.Location = new System.Drawing.Point(19, 35);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(99, 21);
+            this.labelControl4.Size = new System.Drawing.Size(97, 20);
             this.labelControl4.TabIndex = 82;
             this.labelControl4.Text = "BASE GOAL: ";
             // 
             // lb_startPeriodAmountNeeded11Day
             // 
-            this.lb_startPeriodAmountNeeded11Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_startPeriodAmountNeeded11Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.lb_startPeriodAmountNeeded11Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_startPeriodAmountNeeded11Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.lb_startPeriodAmountNeeded11Day.Appearance.Options.UseFont = true;
             this.lb_startPeriodAmountNeeded11Day.Appearance.Options.UseForeColor = true;
             this.lb_startPeriodAmountNeeded11Day.Location = new System.Drawing.Point(170, 62);
             this.lb_startPeriodAmountNeeded11Day.Name = "lb_startPeriodAmountNeeded11Day";
-            this.lb_startPeriodAmountNeeded11Day.Size = new System.Drawing.Size(72, 34);
+            this.lb_startPeriodAmountNeeded11Day.Size = new System.Drawing.Size(64, 32);
             this.lb_startPeriodAmountNeeded11Day.TabIndex = 83;
             this.lb_startPeriodAmountNeeded11Day.Text = " 11-DAY\r\n$9,999.00";
             // 
             // lb_startPeriodAmountNeeded12Day
             // 
-            this.lb_startPeriodAmountNeeded12Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_startPeriodAmountNeeded12Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.lb_startPeriodAmountNeeded12Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_startPeriodAmountNeeded12Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.lb_startPeriodAmountNeeded12Day.Appearance.Options.UseFont = true;
             this.lb_startPeriodAmountNeeded12Day.Appearance.Options.UseForeColor = true;
             this.lb_startPeriodAmountNeeded12Day.Location = new System.Drawing.Point(292, 62);
             this.lb_startPeriodAmountNeeded12Day.Name = "lb_startPeriodAmountNeeded12Day";
-            this.lb_startPeriodAmountNeeded12Day.Size = new System.Drawing.Size(72, 34);
+            this.lb_startPeriodAmountNeeded12Day.Size = new System.Drawing.Size(64, 32);
             this.lb_startPeriodAmountNeeded12Day.TabIndex = 84;
             this.lb_startPeriodAmountNeeded12Day.Text = " 12-DAY\r\n$9,999.00";
             // 
             // lb_startPeriodAmountNeeded13Day
             // 
-            this.lb_startPeriodAmountNeeded13Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_startPeriodAmountNeeded13Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.lb_startPeriodAmountNeeded13Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_startPeriodAmountNeeded13Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.lb_startPeriodAmountNeeded13Day.Appearance.Options.UseFont = true;
             this.lb_startPeriodAmountNeeded13Day.Appearance.Options.UseForeColor = true;
             this.lb_startPeriodAmountNeeded13Day.Location = new System.Drawing.Point(109, 102);
             this.lb_startPeriodAmountNeeded13Day.Name = "lb_startPeriodAmountNeeded13Day";
-            this.lb_startPeriodAmountNeeded13Day.Size = new System.Drawing.Size(72, 34);
+            this.lb_startPeriodAmountNeeded13Day.Size = new System.Drawing.Size(64, 32);
             this.lb_startPeriodAmountNeeded13Day.TabIndex = 85;
             this.lb_startPeriodAmountNeeded13Day.Text = " 13-DAY\r\n$9,999.00";
             // 
             // lb_startPeriodAmountNeeded14Day
             // 
-            this.lb_startPeriodAmountNeeded14Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_startPeriodAmountNeeded14Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            this.lb_startPeriodAmountNeeded14Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_startPeriodAmountNeeded14Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(49)))), ((int)(((byte)(134)))));
             this.lb_startPeriodAmountNeeded14Day.Appearance.Options.UseFont = true;
             this.lb_startPeriodAmountNeeded14Day.Appearance.Options.UseForeColor = true;
             this.lb_startPeriodAmountNeeded14Day.Location = new System.Drawing.Point(233, 102);
             this.lb_startPeriodAmountNeeded14Day.Name = "lb_startPeriodAmountNeeded14Day";
-            this.lb_startPeriodAmountNeeded14Day.Size = new System.Drawing.Size(72, 34);
+            this.lb_startPeriodAmountNeeded14Day.Size = new System.Drawing.Size(64, 32);
             this.lb_startPeriodAmountNeeded14Day.TabIndex = 86;
             this.lb_startPeriodAmountNeeded14Day.Text = " 14-DAY\r\n$9,999.00";
             // 
@@ -685,181 +685,181 @@
             // 
             // lb_TripBaseAmountNeeded14Day
             // 
-            this.lb_TripBaseAmountNeeded14Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_TripBaseAmountNeeded14Day.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lb_TripBaseAmountNeeded14Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TripBaseAmountNeeded14Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.lb_TripBaseAmountNeeded14Day.Appearance.Options.UseFont = true;
             this.lb_TripBaseAmountNeeded14Day.Appearance.Options.UseForeColor = true;
             this.lb_TripBaseAmountNeeded14Day.Location = new System.Drawing.Point(233, 255);
             this.lb_TripBaseAmountNeeded14Day.Name = "lb_TripBaseAmountNeeded14Day";
-            this.lb_TripBaseAmountNeeded14Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_TripBaseAmountNeeded14Day.Size = new System.Drawing.Size(64, 48);
             this.lb_TripBaseAmountNeeded14Day.TabIndex = 94;
             this.lb_TripBaseAmountNeeded14Day.Text = " 14-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // lb_TripBaseAmountNeeded13Day
             // 
-            this.lb_TripBaseAmountNeeded13Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_TripBaseAmountNeeded13Day.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lb_TripBaseAmountNeeded13Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TripBaseAmountNeeded13Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.lb_TripBaseAmountNeeded13Day.Appearance.Options.UseFont = true;
             this.lb_TripBaseAmountNeeded13Day.Appearance.Options.UseForeColor = true;
             this.lb_TripBaseAmountNeeded13Day.Location = new System.Drawing.Point(109, 255);
             this.lb_TripBaseAmountNeeded13Day.Name = "lb_TripBaseAmountNeeded13Day";
-            this.lb_TripBaseAmountNeeded13Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_TripBaseAmountNeeded13Day.Size = new System.Drawing.Size(64, 48);
             this.lb_TripBaseAmountNeeded13Day.TabIndex = 93;
             this.lb_TripBaseAmountNeeded13Day.Text = " 13-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // lb_TripBaseAmountNeeded12Day
             // 
-            this.lb_TripBaseAmountNeeded12Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_TripBaseAmountNeeded12Day.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lb_TripBaseAmountNeeded12Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TripBaseAmountNeeded12Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.lb_TripBaseAmountNeeded12Day.Appearance.Options.UseFont = true;
             this.lb_TripBaseAmountNeeded12Day.Appearance.Options.UseForeColor = true;
             this.lb_TripBaseAmountNeeded12Day.Location = new System.Drawing.Point(292, 198);
             this.lb_TripBaseAmountNeeded12Day.Name = "lb_TripBaseAmountNeeded12Day";
-            this.lb_TripBaseAmountNeeded12Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_TripBaseAmountNeeded12Day.Size = new System.Drawing.Size(64, 48);
             this.lb_TripBaseAmountNeeded12Day.TabIndex = 92;
             this.lb_TripBaseAmountNeeded12Day.Text = " 12-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // lb_TripBaseAmountNeeded11Day
             // 
-            this.lb_TripBaseAmountNeeded11Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_TripBaseAmountNeeded11Day.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lb_TripBaseAmountNeeded11Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TripBaseAmountNeeded11Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.lb_TripBaseAmountNeeded11Day.Appearance.Options.UseFont = true;
             this.lb_TripBaseAmountNeeded11Day.Appearance.Options.UseForeColor = true;
             this.lb_TripBaseAmountNeeded11Day.Location = new System.Drawing.Point(170, 198);
             this.lb_TripBaseAmountNeeded11Day.Name = "lb_TripBaseAmountNeeded11Day";
-            this.lb_TripBaseAmountNeeded11Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_TripBaseAmountNeeded11Day.Size = new System.Drawing.Size(64, 48);
             this.lb_TripBaseAmountNeeded11Day.TabIndex = 91;
             this.lb_TripBaseAmountNeeded11Day.Text = " 11-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // labelControl10
             // 
-            this.labelControl10.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl10.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.labelControl10.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.labelControl10.Appearance.Options.UseFont = true;
             this.labelControl10.Appearance.Options.UseForeColor = true;
             this.labelControl10.Location = new System.Drawing.Point(19, 171);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(99, 21);
+            this.labelControl10.Size = new System.Drawing.Size(93, 20);
             this.labelControl10.TabIndex = 90;
             this.labelControl10.Text = "TRIP GOAL: ";
             // 
             // lb_TripBaseAmountNeeded10Day
             // 
-            this.lb_TripBaseAmountNeeded10Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_TripBaseAmountNeeded10Day.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lb_TripBaseAmountNeeded10Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TripBaseAmountNeeded10Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.lb_TripBaseAmountNeeded10Day.Appearance.Options.UseFont = true;
             this.lb_TripBaseAmountNeeded10Day.Appearance.Options.UseForeColor = true;
             this.lb_TripBaseAmountNeeded10Day.Location = new System.Drawing.Point(48, 198);
             this.lb_TripBaseAmountNeeded10Day.Name = "lb_TripBaseAmountNeeded10Day";
-            this.lb_TripBaseAmountNeeded10Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_TripBaseAmountNeeded10Day.Size = new System.Drawing.Size(64, 48);
             this.lb_TripBaseAmountNeeded10Day.TabIndex = 89;
             this.lb_TripBaseAmountNeeded10Day.Text = " 10-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // labelControl24
             // 
-            this.labelControl24.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl24.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.labelControl24.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl24.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             this.labelControl24.Appearance.Options.UseFont = true;
             this.labelControl24.Appearance.Options.UseForeColor = true;
             this.labelControl24.Location = new System.Drawing.Point(124, 171);
             this.labelControl24.Name = "labelControl24";
-            this.labelControl24.Size = new System.Drawing.Size(162, 21);
+            this.labelControl24.Size = new System.Drawing.Size(168, 20);
             this.labelControl24.TabIndex = 88;
             this.labelControl24.Text = " MIN. AMOUNT NEED ";
             // 
             // lb_PersonalAmountNeeded14Day
             // 
-            this.lb_PersonalAmountNeeded14Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_PersonalAmountNeeded14Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.lb_PersonalAmountNeeded14Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_PersonalAmountNeeded14Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.lb_PersonalAmountNeeded14Day.Appearance.Options.UseFont = true;
             this.lb_PersonalAmountNeeded14Day.Appearance.Options.UseForeColor = true;
             this.lb_PersonalAmountNeeded14Day.Location = new System.Drawing.Point(233, 425);
             this.lb_PersonalAmountNeeded14Day.Name = "lb_PersonalAmountNeeded14Day";
-            this.lb_PersonalAmountNeeded14Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_PersonalAmountNeeded14Day.Size = new System.Drawing.Size(64, 48);
             this.lb_PersonalAmountNeeded14Day.TabIndex = 102;
             this.lb_PersonalAmountNeeded14Day.Text = " 14-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // lb_PersonalAmountNeeded13Day
             // 
-            this.lb_PersonalAmountNeeded13Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_PersonalAmountNeeded13Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.lb_PersonalAmountNeeded13Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_PersonalAmountNeeded13Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.lb_PersonalAmountNeeded13Day.Appearance.Options.UseFont = true;
             this.lb_PersonalAmountNeeded13Day.Appearance.Options.UseForeColor = true;
             this.lb_PersonalAmountNeeded13Day.Location = new System.Drawing.Point(109, 425);
             this.lb_PersonalAmountNeeded13Day.Name = "lb_PersonalAmountNeeded13Day";
-            this.lb_PersonalAmountNeeded13Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_PersonalAmountNeeded13Day.Size = new System.Drawing.Size(64, 48);
             this.lb_PersonalAmountNeeded13Day.TabIndex = 101;
             this.lb_PersonalAmountNeeded13Day.Text = " 13-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // lb_PersonalAmountNeeded12Day
             // 
-            this.lb_PersonalAmountNeeded12Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_PersonalAmountNeeded12Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.lb_PersonalAmountNeeded12Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_PersonalAmountNeeded12Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.lb_PersonalAmountNeeded12Day.Appearance.Options.UseFont = true;
             this.lb_PersonalAmountNeeded12Day.Appearance.Options.UseForeColor = true;
             this.lb_PersonalAmountNeeded12Day.Location = new System.Drawing.Point(292, 368);
             this.lb_PersonalAmountNeeded12Day.Name = "lb_PersonalAmountNeeded12Day";
-            this.lb_PersonalAmountNeeded12Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_PersonalAmountNeeded12Day.Size = new System.Drawing.Size(64, 48);
             this.lb_PersonalAmountNeeded12Day.TabIndex = 100;
             this.lb_PersonalAmountNeeded12Day.Text = " 12-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // lb_PersonalAmountNeeded11Day
             // 
-            this.lb_PersonalAmountNeeded11Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_PersonalAmountNeeded11Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.lb_PersonalAmountNeeded11Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_PersonalAmountNeeded11Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.lb_PersonalAmountNeeded11Day.Appearance.Options.UseFont = true;
             this.lb_PersonalAmountNeeded11Day.Appearance.Options.UseForeColor = true;
             this.lb_PersonalAmountNeeded11Day.Location = new System.Drawing.Point(170, 368);
             this.lb_PersonalAmountNeeded11Day.Name = "lb_PersonalAmountNeeded11Day";
-            this.lb_PersonalAmountNeeded11Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_PersonalAmountNeeded11Day.Size = new System.Drawing.Size(64, 48);
             this.lb_PersonalAmountNeeded11Day.TabIndex = 99;
             this.lb_PersonalAmountNeeded11Day.Text = " 11-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // labelControl28
             // 
-            this.labelControl28.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl28.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.labelControl28.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl28.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.labelControl28.Appearance.Options.UseFont = true;
             this.labelControl28.Appearance.Options.UseForeColor = true;
             this.labelControl28.Location = new System.Drawing.Point(18, 341);
             this.labelControl28.Name = "labelControl28";
-            this.labelControl28.Size = new System.Drawing.Size(135, 21);
+            this.labelControl28.Size = new System.Drawing.Size(140, 20);
             this.labelControl28.TabIndex = 98;
             this.labelControl28.Text = "PERSONAL GOAL: ";
             // 
             // lb_PersonalAmountNeeded10Day
             // 
-            this.lb_PersonalAmountNeeded10Day.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 10F, System.Drawing.FontStyle.Italic);
-            this.lb_PersonalAmountNeeded10Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.lb_PersonalAmountNeeded10Day.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_PersonalAmountNeeded10Day.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.lb_PersonalAmountNeeded10Day.Appearance.Options.UseFont = true;
             this.lb_PersonalAmountNeeded10Day.Appearance.Options.UseForeColor = true;
             this.lb_PersonalAmountNeeded10Day.Location = new System.Drawing.Point(48, 368);
             this.lb_PersonalAmountNeeded10Day.Name = "lb_PersonalAmountNeeded10Day";
-            this.lb_PersonalAmountNeeded10Day.Size = new System.Drawing.Size(72, 51);
+            this.lb_PersonalAmountNeeded10Day.Size = new System.Drawing.Size(64, 48);
             this.lb_PersonalAmountNeeded10Day.TabIndex = 97;
             this.lb_PersonalAmountNeeded10Day.Text = " 10-DAY\r\n$9,999.00\r\n$9,999.00";
             // 
             // labelControl30
             // 
-            this.labelControl30.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F);
-            this.labelControl30.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.labelControl30.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl30.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.labelControl30.Appearance.Options.UseFont = true;
             this.labelControl30.Appearance.Options.UseForeColor = true;
             this.labelControl30.Location = new System.Drawing.Point(159, 341);
             this.labelControl30.Name = "labelControl30";
-            this.labelControl30.Size = new System.Drawing.Size(162, 21);
+            this.labelControl30.Size = new System.Drawing.Size(168, 20);
             this.labelControl30.TabIndex = 96;
             this.labelControl30.Text = " MIN. AMOUNT NEED ";
             // 
             // lbl_PersonalAmtNeedPerDay_Profit
             // 
-            this.lbl_PersonalAmtNeedPerDay_Profit.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_PersonalAmtNeedPerDay_Profit.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(210)))));
+            this.lbl_PersonalAmtNeedPerDay_Profit.Appearance.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_PersonalAmtNeedPerDay_Profit.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(133)))), ((int)(((byte)(155)))));
             this.lbl_PersonalAmtNeedPerDay_Profit.Appearance.Options.UseFont = true;
             this.lbl_PersonalAmtNeedPerDay_Profit.Appearance.Options.UseForeColor = true;
-            this.lbl_PersonalAmtNeedPerDay_Profit.Location = new System.Drawing.Point(327, 341);
+            this.lbl_PersonalAmtNeedPerDay_Profit.Location = new System.Drawing.Point(333, 341);
             this.lbl_PersonalAmtNeedPerDay_Profit.Name = "lbl_PersonalAmtNeedPerDay_Profit";
-            this.lbl_PersonalAmtNeedPerDay_Profit.Size = new System.Drawing.Size(64, 21);
+            this.lbl_PersonalAmtNeedPerDay_Profit.Size = new System.Drawing.Size(65, 20);
             this.lbl_PersonalAmtNeedPerDay_Profit.TabIndex = 95;
             this.lbl_PersonalAmtNeedPerDay_Profit.Text = "$650.00";
             // 
