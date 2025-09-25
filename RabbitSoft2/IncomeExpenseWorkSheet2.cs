@@ -22,7 +22,7 @@ namespace RabbitSoft2
         DateTime StartDateDate;// = todaysDate.AddDays(-14);
 
         double cellUpdateAmountNeeded = 0;
-        double ExpensesAmountBiWeek = 0;
+        double ExpensesBudgetAmount = 0;
 
         public IncomeExpenseWorkSheet2()
         {
@@ -79,11 +79,11 @@ namespace RabbitSoft2
             // updates both the textbox and spreedsheet with average trip amounts 
             textEdit2.Text = AvgTripAmount.ToString();
             worksheet.Cells["B21"].Value = AvgTripAmount;
-            spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString());
+            //spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString());
 
             //XtraMessageBox.Show("Number of Trips: " + UberRidesNumberTrips.ToString() + "\n\nTotal Pay: " + TotalTripsPay.ToString("c") + "\n\nAverage Amount Per Trip: " + AvgTripAmount.ToString("c"));
 
-            ExpensesAmountBiWeek = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString());
+            ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
             Update_Calculations(new Label(), null);
         }
 
@@ -108,8 +108,8 @@ namespace RabbitSoft2
 
         private void spreadsheetControl1_CellValueChanged(object sender, DevExpress.XtraSpreadsheet.SpreadsheetCellEventArgs e)
         {
-            ExpensesAmountBiWeek = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString());
-            if(!worksheet.Cells["B22"].Value.IsError) { spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString()); }
+            ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
+            //if (!worksheet.Cells["B22"].Value.IsError) { spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString()); }
             
             textEdit2.EditValue = Convert.ToDouble(worksheet.Cells["B21"].Value.ToString());
             Update_Calculations(new Label(), null);
@@ -117,11 +117,30 @@ namespace RabbitSoft2
 
         private void Update_Calculations(object sender, EventArgs e)
         {
-            //if (sender.GetType() == typeof(SimpleButton)) { SimpleButton button = (SimpleButton)sender; }
+            // start period goal taking the amount needed for period and subtracting incoming stating amount...
+            double startPeriodAmountNeeded = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
 
+            double startPeriodAmountNeeded10Day = startPeriodAmountNeeded / 10;
+            lb_startPeriodAmountNeeded10Day.Text = " 10-DAY\n" + startPeriodAmountNeeded10Day.ToString("C");
+
+            double startPeriodAmountNeeded11Day = startPeriodAmountNeeded / 11;
+            lb_startPeriodAmountNeeded11Day.Text = " 11-DAY\n" + startPeriodAmountNeeded11Day.ToString("C");
+
+            double startPeriodAmountNeeded12Day = startPeriodAmountNeeded / 12;
+            lb_startPeriodAmountNeeded12Day.Text = " 12-DAY\n" + startPeriodAmountNeeded12Day.ToString("C");
+
+            double startPeriodAmountNeeded13Day = startPeriodAmountNeeded / 13;
+            lb_startPeriodAmountNeeded13Day.Text = " 13-DAY\n" + startPeriodAmountNeeded13Day.ToString("C");
+
+            double startPeriodAmountNeeded14Day = startPeriodAmountNeeded / 14;
+            lb_startPeriodAmountNeeded14Day.Text = " 14-DAY\n" + startPeriodAmountNeeded14Day.ToString("C");
+
+
+
+            // running trip average goal - taking avg trip with number of trips and calculating difference for profit
             double uberRidesTripAmount = double.Parse(textEdit2.EditValue.ToString());
             int uberRidesTripsPerDay = int.Parse(spinEdit1.Value.ToString());
-            double uberRidesIncomeTotal = uberRidesTripAmount * uberRidesTripsPerDay;
+            double uberRidesIncomeTotal = uberRidesTripAmount *  uberRidesTripsPerDay;
 
             double lyftRidesTripAmount = double.Parse(textEdit3.EditValue.ToString());
             int lyftRidesTripsPerDay = int.Parse(spinEdit2.Value.ToString());
@@ -135,40 +154,54 @@ namespace RabbitSoft2
             int doorDashTripsPerDay = int.Parse(spinEdit4.Value.ToString());
             double doorDashIncomeTotal = doorDashTripAmount * doorDashTripsPerDay;
 
-            double TotalIncome = uberRidesIncomeTotal + lyftRidesIncomeTotal + uberDeliverIncomeTotal + doorDashIncomeTotal;// + instacartIncomeTotal;
-            double twoWeekTotalIncome_10Days = (TotalIncome * 10);
-            double twoWeekTotalIncome_11Days = (TotalIncome * 11);
-            double twoWeekTotalIncome_12Days = (TotalIncome * 12);
-            double twoWeekTotalIncome_13Days = (TotalIncome * 13);
-            double twoWeekTotalIncome_14Days = (TotalIncome * 14);
+            double AvgTotalTripIncome = uberRidesIncomeTotal + lyftRidesIncomeTotal + uberDeliverIncomeTotal + doorDashIncomeTotal;// + instacartIncomeTotal;
+            lbl_AmtNeedPerDay_Profit.Text = AvgTotalTripIncome.ToString("c");
 
-            double profitWeek_10Days = (twoWeekTotalIncome_10Days / 2);
-            double profitWeek_11Days = (twoWeekTotalIncome_11Days / 2);
-            double profitWeek_12Days = (twoWeekTotalIncome_12Days / 2);
-            double profitWeek_13Days = (twoWeekTotalIncome_13Days / 2);
-            double profitWeek_14Days = (twoWeekTotalIncome_14Days / 2);
+            double TripBaseAmountNeeded10Day = (AvgTotalTripIncome * 10);
+            double TripBaseAmountNeeded10Day_Difference = TripBaseAmountNeeded10Day - startPeriodAmountNeeded;
+            lb_TripBaseAmountNeeded10Day.Text = " 10-DAY\n" + TripBaseAmountNeeded10Day.ToString("c") + "\nD: " + TripBaseAmountNeeded10Day_Difference.ToString("c");
 
-            double profitDay = (twoWeekTotalIncome_10Days / 10);
+            double TripBaseAmountNeeded11Day = (AvgTotalTripIncome * 11);
+            double TripBaseAmountNeeded11Day_Difference = TripBaseAmountNeeded11Day - startPeriodAmountNeeded;
+            lb_TripBaseAmountNeeded11Day.Text = " 11-DAY\n" + TripBaseAmountNeeded11Day.ToString("c") + "\nD: " + TripBaseAmountNeeded11Day_Difference.ToString("c");
 
-            lbl_AmtNeedPerDay_Profit.Text = profitDay.ToString("c");
+            double TripBaseAmountNeeded12Day = (AvgTotalTripIncome * 12);
+            double TripBaseAmountNeeded12Day_Difference = TripBaseAmountNeeded12Day - startPeriodAmountNeeded;
+            lb_TripBaseAmountNeeded12Day.Text = " 12-DAY\n" + TripBaseAmountNeeded12Day.ToString("c") + "\nD: " + TripBaseAmountNeeded12Day_Difference.ToString("c");
 
-            lbl_AmtNeedPerWeek_Profit_10Days.Text = profitWeek_10Days.ToString("C");
-            lbl_AmtNeedPerWeek_Profit_11Days.Text = profitWeek_11Days.ToString("C");
-            lbl_AmtNeedPerWeek_Profit_12Days.Text = profitWeek_12Days.ToString("C");
-            lbl_AmtNeedPerWeek_Profit_13Days.Text = profitWeek_13Days.ToString("C");
-            lbl_AmtNeedPerWeek_Profit_14Days.Text = profitWeek_14Days.ToString("C");
+            double TripBaseAmountNeeded13Day = (AvgTotalTripIncome * 13);
+            double TripBaseAmountNeeded13Day_Difference = TripBaseAmountNeeded13Day - startPeriodAmountNeeded;
+            lb_TripBaseAmountNeeded13Day.Text = " 13-DAY\n" + TripBaseAmountNeeded13Day.ToString("c") + "\nD: " + TripBaseAmountNeeded13Day_Difference.ToString("c");
 
-            double difference_10Day = (profitWeek_10Days * 2) - ExpensesAmountBiWeek;
-            double difference_11Day = (profitWeek_11Days * 2) - ExpensesAmountBiWeek;
-            double difference_12Day = (profitWeek_12Days * 2) - ExpensesAmountBiWeek;
-            double difference_13Day = (profitWeek_13Days * 2) - ExpensesAmountBiWeek;
-            double difference_14Day = (profitWeek_14Days * 2) - ExpensesAmountBiWeek;
+            double TripBaseAmountNeeded14Day = (AvgTotalTripIncome * 14);
+            double TripBaseAmountNeeded14Day_Difference = TripBaseAmountNeeded14Day - startPeriodAmountNeeded;
+            lb_TripBaseAmountNeeded14Day.Text = " 14-DAY\n" + TripBaseAmountNeeded14Day.ToString("c") + "\nD: " + TripBaseAmountNeeded14Day_Difference.ToString("c");
 
-            lblDifference_10Day.Text = difference_10Day.ToString("c");
-            lblDifference_11Day.Text = difference_11Day.ToString("c");
-            lblDifference_12Day.Text = difference_12Day.ToString("c");
-            lblDifference_13Day.Text = difference_13Day.ToString("c");
-            lblDifference_14Day.Text = difference_14Day.ToString("c");
+
+            // personal goal  @ $135.00 a day - taking avg trip with number of trips and calculating difference for profit
+            double PersonalAmountIncome = 135.00;// uberRidesIncomeTotal + lyftRidesIncomeTotal + uberDeliverIncomeTotal + doorDashIncomeTotal;// + instacartIncomeTotal;
+            lbl_PersonalAmtNeedPerDay_Profit.Text = PersonalAmountIncome.ToString("c");
+
+            double PersonalAmountNeeded10Day = (135 * 10);
+            double PersonalAmountNeeded10Day_Difference = PersonalAmountNeeded10Day - startPeriodAmountNeeded;
+            lb_PersonalAmountNeeded10Day.Text = " 10-DAY\n" + PersonalAmountNeeded10Day.ToString("c") + "\n" + PersonalAmountNeeded10Day_Difference.ToString("c");
+
+            double PersonalAmountNeeded11Day = (135 * 11);
+            double PersonalAmountNeeded11Day_Difference = PersonalAmountNeeded11Day - startPeriodAmountNeeded;
+            lb_PersonalAmountNeeded11Day.Text = " 11-DAY\n" + PersonalAmountNeeded11Day.ToString("c") + "\n" + PersonalAmountNeeded11Day_Difference.ToString("c");
+
+            double PersonalAmountNeeded12Day = (135 * 12);
+            double PersonalAmountNeeded12Day_Difference = PersonalAmountNeeded12Day - startPeriodAmountNeeded;
+            lb_PersonalAmountNeeded12Day.Text = " 12-DAY\n" + PersonalAmountNeeded12Day.ToString("c") + "\n" + PersonalAmountNeeded12Day_Difference.ToString("c");
+
+            double PersonalAmountNeeded13Day = (135 * 13);
+            double PersonalAmountNeeded13Day_Difference = PersonalAmountNeeded13Day - startPeriodAmountNeeded;
+            lb_PersonalAmountNeeded13Day.Text = " 13-DAY\n" + PersonalAmountNeeded13Day.ToString("c") + "\n" + PersonalAmountNeeded13Day_Difference.ToString("c");
+
+            double PersonalAmountNeeded14Day = (135 * 14);
+            double PersonalAmountNeeded14Day_Difference = PersonalAmountNeeded14Day - startPeriodAmountNeeded;
+            lb_PersonalAmountNeeded14Day.Text = " 14-DAY\n" + PersonalAmountNeeded14Day.ToString("c") + "\n" + PersonalAmountNeeded14Day_Difference.ToString("c");
+
 
         }
     }
