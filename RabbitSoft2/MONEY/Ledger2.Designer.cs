@@ -87,6 +87,10 @@
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue28 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule29 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue29 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule30 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression1 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule31 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression2 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
             this.colTOTALHOURS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTALHOURS_DEC = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTOTALPAY = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -294,6 +298,7 @@
             // 
             this.gridControl1.DataSource = this.lEDGERBindingSource;
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl1.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F);
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
@@ -559,7 +564,7 @@
             gridFormatRule28.Description = null;
             gridFormatRule28.Name = "Format5";
             formatConditionRuleValue28.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Bold);
-            formatConditionRuleValue28.Appearance.ForeColor = System.Drawing.Color.SeaGreen;
+            formatConditionRuleValue28.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
             formatConditionRuleValue28.Appearance.Options.UseFont = true;
             formatConditionRuleValue28.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue28.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
@@ -568,11 +573,33 @@
             gridFormatRule29.Column = this.colRUNNINGTOTAL;
             gridFormatRule29.Description = null;
             gridFormatRule29.Name = "Format6";
-            formatConditionRuleValue29.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Critical;
+            formatConditionRuleValue29.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             formatConditionRuleValue29.Appearance.Options.UseForeColor = true;
             formatConditionRuleValue29.Condition = DevExpress.XtraEditors.FormatCondition.Less;
             formatConditionRuleValue29.Value1 = "0.00";
             gridFormatRule29.Rule = formatConditionRuleValue29;
+            gridFormatRule30.ApplyToRow = true;
+            gridFormatRule30.Column = this.colACTIVITY;
+            gridFormatRule30.ColumnApplyTo = this.colTOTALPAY;
+            gridFormatRule30.Description = null;
+            gridFormatRule30.Name = "Format7";
+            formatConditionRuleExpression1.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Bold);
+            formatConditionRuleExpression1.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(155)))), ((int)(((byte)(123)))));
+            formatConditionRuleExpression1.Appearance.Options.UseFont = true;
+            formatConditionRuleExpression1.Appearance.Options.UseForeColor = true;
+            formatConditionRuleExpression1.Expression = "[ACTIVITY] = \'OTHER\' And [TOTALPAY] > 0.0";
+            gridFormatRule30.Rule = formatConditionRuleExpression1;
+            gridFormatRule31.ApplyToRow = true;
+            gridFormatRule31.Column = this.colACTIVITY;
+            gridFormatRule31.ColumnApplyTo = this.colTOTALPAY;
+            gridFormatRule31.Description = null;
+            gridFormatRule31.Name = "Format8";
+            formatConditionRuleExpression2.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Bold);
+            formatConditionRuleExpression2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            formatConditionRuleExpression2.Appearance.Options.UseFont = true;
+            formatConditionRuleExpression2.Appearance.Options.UseForeColor = true;
+            formatConditionRuleExpression2.Expression = "[ACTIVITY] = \'OTHER\' And [TOTALPAY] < 0.0";
+            gridFormatRule31.Rule = formatConditionRuleExpression2;
             this.gridView1.FormatRules.Add(gridFormatRule1);
             this.gridView1.FormatRules.Add(gridFormatRule2);
             this.gridView1.FormatRules.Add(gridFormatRule3);
@@ -602,6 +629,8 @@
             this.gridView1.FormatRules.Add(gridFormatRule27);
             this.gridView1.FormatRules.Add(gridFormatRule28);
             this.gridView1.FormatRules.Add(gridFormatRule29);
+            this.gridView1.FormatRules.Add(gridFormatRule30);
+            this.gridView1.FormatRules.Add(gridFormatRule31);
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsCustomization.AllowFilter = false;
@@ -632,9 +661,9 @@
             // simpleButton1
             // 
             this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton1.Location = new System.Drawing.Point(1022, 586);
+            this.simpleButton1.Location = new System.Drawing.Point(1022, 595);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(101, 39);
+            this.simpleButton1.Size = new System.Drawing.Size(104, 33);
             this.simpleButton1.TabIndex = 1;
             this.simpleButton1.Text = "UPDATE DATA";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);

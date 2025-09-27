@@ -56,19 +56,20 @@ namespace RabbitSoft2
                 {
                     if (row[6].ToString() == "UBER RIDES")
                     {
-
-                        UberRidesNumberTrips += Convert.ToInt32(row[7].ToString());
-                        TotalTripsPay += Convert.ToDouble(row[10]);
-
-                        // adds the daily amount to the edge of spreedsheet
-                        for (int i = 3; i <= 16; i++)
+                        if(row[7] != DBNull.Value)
                         {
-                            if(Convert.ToDateTime(worksheet.Cells["T"+i].Value.ToString()) == Convert.ToDateTime(row[1]).Date)
+                            UberRidesNumberTrips += Convert.ToInt32(row[7].ToString());
+                            TotalTripsPay += Convert.ToDouble(row[10]);
+
+                            // adds the daily amount to the edge of spreedsheet
+                            for (int i = 3; i <= 16; i++)
                             {
-                                worksheet.Cells["U" + i].Value = Convert.ToDouble(row[10]);
+                                if (Convert.ToDateTime(worksheet.Cells["T" + i].Value.ToString()) == Convert.ToDateTime(row[1]).Date)
+                                {
+                                    worksheet.Cells["U" + i].Value = Convert.ToDouble(row[10]);
+                                }
                             }
-                        }
-  
+                        }  
                     }
                     
                 }
@@ -80,8 +81,6 @@ namespace RabbitSoft2
             textEdit2.Text = AvgTripAmount.ToString();
             worksheet.Cells["B21"].Value = AvgTripAmount;
             //spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString());
-
-            //XtraMessageBox.Show("Number of Trips: " + UberRidesNumberTrips.ToString() + "\n\nTotal Pay: " + TotalTripsPay.ToString("c") + "\n\nAverage Amount Per Trip: " + AvgTripAmount.ToString("c"));
 
             ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
             Update_Calculations(new Label(), null);

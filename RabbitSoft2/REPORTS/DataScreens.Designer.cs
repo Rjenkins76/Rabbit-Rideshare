@@ -77,6 +77,9 @@
             this.colTOTAL_MILEAGE = new DevExpress.XtraGrid.Columns.GridColumn();
             this.mileagelogTableAdapter1 = new RabbitSoft2.RABBIT_RIDESHAREDataSetTableAdapters.MILEAGELOGTableAdapter();
             this.trip_ActivityTableAdapter1 = new RabbitSoft2.RABBIT_RIDESHAREDataSetTableAdapters.Trip_ActivityTableAdapter();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lEDGERBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet1)).BeginInit();
@@ -134,6 +137,13 @@
             this.colNOTES});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView1.OptionsSelection.MultiSelect = true;
+            this.gridView1.OptionsView.EnableAppearanceEvenRow = true;
+            this.gridView1.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
+            this.gridView1.OptionsView.ShowFooter = true;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // colID
             // 
@@ -280,6 +290,10 @@
             this.colNUMBERTRIPS});
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsSelection.MultiSelect = true;
+            this.gridView2.OptionsView.EnableAppearanceEvenRow = true;
+            this.gridView2.OptionsView.ShowFooter = true;
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // colID1
             // 
@@ -355,7 +369,7 @@
             this.gridControl3.Location = new System.Drawing.Point(3, 432);
             this.gridControl3.MainView = this.gridView3;
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(1183, 532);
+            this.gridControl3.Size = new System.Drawing.Size(1183, 505);
             this.gridControl3.TabIndex = 2;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
@@ -384,7 +398,11 @@
             this.colTOTAL_MILEAGE});
             this.gridView3.GridControl = this.gridControl3;
             this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsSelection.MultiSelect = true;
+            this.gridView3.OptionsView.EnableAppearanceEvenRow = true;
+            this.gridView3.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
             this.gridView3.OptionsView.ShowFooter = true;
+            this.gridView3.OptionsView.ShowGroupPanel = false;
             // 
             // colTRIP_ID
             // 
@@ -445,6 +463,8 @@
             // 
             this.colTOTAL_MILEAGE.FieldName = "TOTAL_MILEAGE";
             this.colTOTAL_MILEAGE.Name = "colTOTAL_MILEAGE";
+            this.colTOTAL_MILEAGE.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)});
             this.colTOTAL_MILEAGE.Visible = true;
             this.colTOTAL_MILEAGE.VisibleIndex = 7;
             // 
@@ -456,15 +476,57 @@
             // 
             this.trip_ActivityTableAdapter1.ClearBeforeFill = true;
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F);
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Appearance.Options.UseTextOptions = true;
+            this.simpleButton1.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.simpleButton1.Location = new System.Drawing.Point(1086, 392);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(100, 34);
+            this.simpleButton1.TabIndex = 3;
+            this.simpleButton1.Text = "SEND\r\nUPDATE";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F);
+            this.simpleButton3.Appearance.Options.UseFont = true;
+            this.simpleButton3.Appearance.Options.UseTextOptions = true;
+            this.simpleButton3.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.simpleButton3.Location = new System.Drawing.Point(1086, 936);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(100, 34);
+            this.simpleButton3.TabIndex = 4;
+            this.simpleButton3.Text = "SEND\r\nUPDATE";
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Cascadia Mono", 8.25F);
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Appearance.Options.UseTextOptions = true;
+            this.simpleButton2.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.simpleButton2.Location = new System.Drawing.Point(1815, 392);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(100, 34);
+            this.simpleButton2.TabIndex = 5;
+            this.simpleButton2.Text = "SEND\r\nUPDATE";
+            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
+            // 
             // DataScreens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.simpleButton2);
+            this.Controls.Add(this.simpleButton3);
+            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.gridControl3);
             this.Controls.Add(this.gridControl2);
             this.Controls.Add(this.gridControl1);
             this.Name = "DataScreens";
-            this.Size = new System.Drawing.Size(1918, 997);
+            this.Size = new System.Drawing.Size(1918, 970);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lEDGERBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rabbiT_RIDESHAREDataSet1)).EndInit();
@@ -532,5 +594,8 @@
         private System.Windows.Forms.BindingSource trip_ActivityBindingSource;
         private RABBIT_RIDESHAREDataSet rabbiT_RIDESHAREDataSet3;
         private RABBIT_RIDESHAREDataSetTableAdapters.Trip_ActivityTableAdapter trip_ActivityTableAdapter1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
     }
 }

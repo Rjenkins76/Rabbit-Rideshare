@@ -147,29 +147,6 @@ namespace RabbitSoft2
                     connection.Close();
                 }
             }
-
-            DialogResult result = XtraMessageBox.Show("DO YOU WANT TO CONTINUE TO ADDING TRIP INFORMATION?", "QUESTION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
-            {
-                if(cb_Activity.Text == "UBER DELIVERIES")
-                {
-                    UberDeliveriesCollectData data = new UberDeliveriesCollectData(MainScreen);
-                    data.Dock = DockStyle.Fill;
-
-                    MainScreen.panelControl1.Controls.Clear();
-                    MainScreen.panelControl1.Controls.Add(data);
-                }
-                else if (cb_Activity.Text == "DOOR DASH")
-                {
-                    DoorDashCollectData data = new DoorDashCollectData(MainScreen);
-                    data.Dock = DockStyle.Fill;
-
-                    MainScreen.panelControl1.Controls.Clear();
-                    MainScreen.panelControl1.Controls.Add(data);
-                }
-
-            }
-
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
