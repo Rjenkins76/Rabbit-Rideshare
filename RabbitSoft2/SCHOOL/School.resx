@@ -117,17 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="labelControl2.Text" xml:space="preserve">
-    <value>As we can see from the chart above there would be
-three points to calculate (0,0) - (5,20) - (10,40) when we
-average these points we would get:
-0+5+10 = 15 / 3 = 5 for the X axis 
-0+20+40 = 60 / 3 = 20 for the Y axis
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>S = 0t + (1/2) * 9.8 * t^2
+step 1 - calc for time: 2560 = 4.9t^2
+step 2 - divide both sides by 4.9 = (2560 / 4.9) = (4.9t^2 / 4.9)
+step 3 - solve ( 2560 / 4.9)  = 522.448979591837
+step 4 - square time to get answer: 22.86</value>
+  </data>
+  <data name="labelControl8.Text" xml:space="preserve">
+    <value>First we use the basic displacement formula to start the calculations. we input the given 
+values into the equation to get the time value. then we will divide both sides with the 4.9
+variable. we then square the value to get our final answer. 
 
-we can discard the X axis results as this is related to the time 
-and would use the Y axis as the speed of the train
-so the average speed of the train would be 20
+We then need to convert MPH the plane is flying into our formula of m/s, with a quick search
+we get the values for converting and are able to find that at 250mph translates to 111.76 m/s
 
+last we multiply both answer to get our final answer.
 </value>
   </data>
 </root>

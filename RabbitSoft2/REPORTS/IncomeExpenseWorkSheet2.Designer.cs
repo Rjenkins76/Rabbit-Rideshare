@@ -511,8 +511,6 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.spreadsheetControl1.Location = new System.Drawing.Point(429, 36);
             this.spreadsheetControl1.Name = "spreadsheetControl1";
-            this.spreadsheetControl1.Options.View.ShowColumnHeaders = false;
-            this.spreadsheetControl1.Options.View.ShowRowHeaders = false;
             this.spreadsheetControl1.Size = new System.Drawing.Size(1488, 925);
             this.spreadsheetControl1.TabIndex = 80;
             this.spreadsheetControl1.Text = "spreadsheetControl1";

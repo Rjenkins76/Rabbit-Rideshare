@@ -435,10 +435,15 @@
     <Compile Include="REPORTS\WaitForm1.Designer.cs">
       <DependentUpon>WaitForm1.cs</DependentUpon>
     </Compile>
-    <Compile Include="School.cs">
+    <Compile Include="SCHOOL\PAINT\CanvasManager.cs" />
+    <Compile Include="SCHOOL\PAINT\ColorManager.cs" />
+    <Compile Include="SCHOOL\PAINT\ICanvasManager.cs" />
+    <Compile Include="SCHOOL\PAINT\IColorManager.cs" />
+    <Compile Include="SCHOOL\PAINT\ToolState.cs" />
+    <Compile Include="SCHOOL\School.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="School.Designer.cs">
+    <Compile Include="SCHOOL\School.Designer.cs">
       <DependentUpon>School.cs</DependentUpon>
     </Compile>
     <Compile Include="MONEY\TAXES\TaxForm1040.cs">
@@ -447,6 +452,10 @@
     <Compile Include="MONEY\TAXES\TaxForm1040.Designer.cs">
       <DependentUpon>TaxForm1040.cs</DependentUpon>
     </Compile>
+    <Compile Include="SCHOOL\PAINT\TOOLS\EraseTool.cs" />
+    <Compile Include="SCHOOL\PAINT\TOOLS\IInteractiveTool.cs" />
+    <Compile Include="SCHOOL\PAINT\TOOLS\ITool.cs" />
+    <Compile Include="SCHOOL\PAINT\TOOLS\PenTool.cs" />
     <Compile Include="UBER_RIDES\UberRidesViewDatacs.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -536,7 +545,7 @@
     <EmbeddedResource Include="REPORTS\WaitForm1.resx">
       <DependentUpon>WaitForm1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="School.resx">
+    <EmbeddedResource Include="SCHOOL\School.resx">
       <DependentUpon>School.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MONEY\TAXES\TaxForm1040.resx">

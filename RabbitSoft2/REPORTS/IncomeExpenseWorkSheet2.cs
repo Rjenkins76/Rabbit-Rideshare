@@ -82,7 +82,7 @@ namespace RabbitSoft2
             worksheet.Cells["B21"].Value = AvgTripAmount;
             //spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString());
 
-            ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
+            ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B13"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
             Update_Calculations(new Label(), null);
         }
 
@@ -107,7 +107,7 @@ namespace RabbitSoft2
 
         private void spreadsheetControl1_CellValueChanged(object sender, DevExpress.XtraSpreadsheet.SpreadsheetCellEventArgs e)
         {
-            ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
+            ExpensesBudgetAmount = Convert.ToDouble(worksheet.Cells["B13"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
             //if (!worksheet.Cells["B22"].Value.IsError) { spinEdit1.Value = Convert.ToDecimal(worksheet.Cells["B22"].Value.ToString()); }
             
             textEdit2.EditValue = Convert.ToDouble(worksheet.Cells["B21"].Value.ToString());
@@ -117,7 +117,7 @@ namespace RabbitSoft2
         private void Update_Calculations(object sender, EventArgs e)
         {
             // start period goal taking the amount needed for period and subtracting incoming stating amount...
-            double startPeriodAmountNeeded = Convert.ToDouble(worksheet.Cells["B12"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
+            double startPeriodAmountNeeded = Convert.ToDouble(worksheet.Cells["B13"].Value.ToString()) - Convert.ToDouble(worksheet.Cells["U2"].Value.ToString());
 
             double startPeriodAmountNeeded10Day = startPeriodAmountNeeded / 10;
             lb_startPeriodAmountNeeded10Day.Text = " 10-DAY\n" + startPeriodAmountNeeded10Day.ToString("C");

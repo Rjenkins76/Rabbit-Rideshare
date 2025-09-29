@@ -139,6 +139,8 @@
             this.colTOTALHOURS_DEC.Caption = "TOTAL HOURS DEC";
             this.colTOTALHOURS_DEC.FieldName = "TOTALHOURS_DEC";
             this.colTOTALHOURS_DEC.Name = "colTOTALHOURS_DEC";
+            this.colTOTALHOURS_DEC.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TOTALHOURS_DEC", "{0:0.##}")});
             this.colTOTALHOURS_DEC.Visible = true;
             this.colTOTALHOURS_DEC.VisibleIndex = 4;
             this.colTOTALHOURS_DEC.Width = 66;
